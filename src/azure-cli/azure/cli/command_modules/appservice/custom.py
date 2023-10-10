@@ -430,17 +430,15 @@ def update_app_settings(cmd, resource_group_name, name, settings=None, slot=None
         app_settings.properties[setting_name] = value
     client = web_client_factory(cmd.cli_ctx)
 
-
 # TODO: Centauri currently return wrong payload for update appsettings, remove this once backend has the fix.
     if is_centauri_functionapp(cmd, resource_group_name, name):
         update_application_settings_polling(cmd, resource_group_name, name, app_settings, slot, client)
-        result = _generic_site_operation(cmd.cli_ctx, resource_group_name, name, 'list_application_settings', slot)
+        _generic_site_operation(cmd.cli_ctx, resource_group_name, name, 'list_application_settings', slot)
     else:
-        result = _generic_settings_operation(cmd.cli_ctx, resource_group_name, name,
-                                             'update_application_settings',
-                                             app_settings, slot, client)
+        _generic_settings_operation(cmd.cli_ctx, resource_group_name, name,
+                                    'update_application_settings',
+                                    app_settings, slot, client)
 
-    app_settings_slot_cfg_names = []
     if slot_result:
         slot_cfg_names = client.web_apps.list_slot_configuration_names(resource_group_name, name)
         slot_cfg_names.app_setting_names = slot_cfg_names.app_setting_names or []
@@ -450,10 +448,9 @@ def update_app_settings(cmd, resource_group_name, name, settings=None, slot=None
                 slot_cfg_names.app_setting_names.append(slot_setting_name)
             elif not value and slot_setting_name in slot_cfg_names.app_setting_names:
                 slot_cfg_names.app_setting_names.remove(slot_setting_name)
-        app_settings_slot_cfg_names = slot_cfg_names.app_setting_names
         client.web_apps.update_slot_configuration_names(resource_group_name, name, slot_cfg_names)
 
-    return _build_app_settings_output(result.properties, app_settings_slot_cfg_names)
+    return f'Successfully updated settings {list(result.keys())}. Use config appsettings list command to view settings.'
 
 
 # TODO: Update manual polling to use LongRunningOperation once backend API & new SDK supports polling
@@ -1556,12 +1553,13 @@ def delete_app_settings(cmd, resource_group_name, name, setting_names, slot=None
 # TODO: Centauri currently return wrong payload for update appsettings, remove this once backend has the fix.
     if centauri_functionapp:
         update_application_settings_polling(cmd, resource_group_name, name, app_settings, slot, client)
-        result = _generic_site_operation(cmd.cli_ctx, resource_group_name, name, 'list_application_settings', slot)
+        _generic_site_operation(cmd.cli_ctx, resource_group_name, name, 'list_application_settings', slot)
     else:
-        result = _generic_settings_operation(cmd.cli_ctx, resource_group_name, name,
-                                             'update_application_settings',
-                                             app_settings, slot, client)
-    return _build_app_settings_output(result.properties, slot_cfg_names.app_setting_names if slot_cfg_names else [])
+        _generic_settings_operation(cmd.cli_ctx, resource_group_name, name,
+                                    'update_application_settings',
+                                    app_settings, slot, client)
+
+    return f'Successfully deleted {setting_names}. Use config appsettings list command to view settings.'
 
 
 def delete_azure_storage_accounts(cmd, resource_group_name, name, custom_id, slot=None):
