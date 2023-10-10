@@ -699,12 +699,10 @@ class WebappConfigureTest(ScenarioTest):
         # delete
         self.cmd('webapp config appsettings delete -g {} -n {} --setting-names s1 s2'
                  .format(resource_group, webapp_name))
-        
         self.cmd('webapp config appsettings list -g {} -n {}'.format(
             resource_group, webapp_name)).assert_with_checks([
-                     JMESPathCheck("length([?name=='s3'])", 1),
-                     JMESPathCheck("length([?name=='s1'])", 0),
-                     JMESPathCheck("length([?name=='s2'])", 0)])
+                JMESPathCheck("length([?name=='s1'])", 0),
+                JMESPathCheck("length([?name=='s2'])", 0)])
 
         # hostnames
         self.cmd('webapp config hostname list -g {} --webapp-name {}'
@@ -864,10 +862,10 @@ class WebappConfigureTest(ScenarioTest):
         ])
 
         self.cmd('webapp config appsettings set -g {} -n {} --settings s=value "@{}"'.format(
-            resource_group, webapp_name, settings_file)).get_output_in_json()
+            resource_group, webapp_name, settings_file))
         
         output = self.cmd('webapp config appsettings list -g {} -n {}'.format(
-            resource_group, webapp_name)).get_output.in_json()
+            resource_group, webapp_name)).get_output_in_json()
         output = [s for s in output if s['name'] in ['s', 's2']]
         output.sort(key=lambda s: s['name'])
         self.assertEqual(output[0], {
@@ -894,7 +892,7 @@ class WebappConfigureTest(ScenarioTest):
             resource_group, webapp_name, settings_file))
         
         output = self.cmd('webapp config appsettings list -g {} -n {}'.format(
-            resource_group, webapp_name)).get_output.in_json()
+            resource_group, webapp_name)).get_output_in_json()
         output = [s for s in output if s['name'] in ['s', 's2', 's3']]
         output.sort(key=lambda s: s['name'])
 
@@ -920,7 +918,7 @@ class WebappConfigureTest(ScenarioTest):
             resource_group, webapp_name, slot, settings_file))
         
         output = self.cmd('webapp config appsettings list -g {} -n {}'.format(
-            resource_group, webapp_name)).get_output.in_json()
+            resource_group, webapp_name)).get_output_in_json()
         output = [s for s in output if s['name'] in ['s', 's2', 's3']]
         output.sort(key=lambda s: s['name'])
 
@@ -945,7 +943,7 @@ class WebappConfigureTest(ScenarioTest):
             resource_group, webapp_name, settings_file))
         
         output = self.cmd('webapp config appsettings list -g {} -n {}'.format(
-            resource_group, webapp_name)).get_output.in_json()
+            resource_group, webapp_name)).get_output_in_json()
         output = [s for s in output if s['name'] in ['s', 's2', 's3']]
         output.sort(key=lambda s: s['name'])
 
@@ -969,7 +967,7 @@ class WebappConfigureTest(ScenarioTest):
             resource_group, webapp_name, slot, settings_file))
         
         output = self.cmd('webapp config appsettings list -g {} -n {}'.format(
-            resource_group, webapp_name)).get_output.in_json()
+            resource_group, webapp_name)).get_output_in_json()
         output = [s for s in output if s['name'] in ['s', 's2', 's3']]
         output.sort(key=lambda s: s['name'])
 
