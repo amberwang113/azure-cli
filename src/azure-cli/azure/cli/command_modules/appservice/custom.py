@@ -450,7 +450,9 @@ def update_app_settings(cmd, resource_group_name, name, settings=None, slot=None
                 slot_cfg_names.app_setting_names.remove(slot_setting_name)
         client.web_apps.update_slot_configuration_names(resource_group_name, name, slot_cfg_names)
 
-    return f'Successfully updated settings {list(result.keys())}. Use config appsettings list command to view settings.'
+    # log success status as a warning
+    logger.warning("Successfully updated %s. Use config appsettings list command to view app settings.",
+                   (', '.join(list(result.keys()))))
 
 
 # TODO: Update manual polling to use LongRunningOperation once backend API & new SDK supports polling
@@ -1559,7 +1561,9 @@ def delete_app_settings(cmd, resource_group_name, name, setting_names, slot=None
                                     'update_application_settings',
                                     app_settings, slot, client)
 
-    return f'Successfully deleted {setting_names}. Use config appsettings list command to view settings.'
+    # logging as warning for success status message
+    logger.warning("Successfully deleted %s. Use config appsettings list command to view app settings.",
+                   setting_names)
 
 
 def delete_azure_storage_accounts(cmd, resource_group_name, name, custom_id, slot=None):
