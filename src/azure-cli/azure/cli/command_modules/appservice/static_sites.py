@@ -299,15 +299,11 @@ def set_staticsite_app_settings(cmd, name, setting_pairs, resource_group_name=No
         app_settings.properties[k] = v
 
     if not environment_name:
-        client.create_or_update_static_site_app_settings(
+        return client.create_or_update_static_site_app_settings(
             resource_group_name, name, app_settings=app_settings)
-    else:
-        client.create_or_update_static_site_build_app_settings(
-            resource_group_name, name, environment_name, app_settings=app_settings)
 
-    # log success status as a warning
-    logger.warning("Successfully updated %s. Use appsettings list command to view app settings.",
-                   (', '.join(list(setting_dict.keys()))))
+    return client.create_or_update_static_site_build_app_settings(
+        resource_group_name, name, environment_name, app_settings=app_settings)
 
 
 def delete_staticsite_app_settings(cmd, name, setting_names, resource_group_name=None, environment_name=None):
@@ -316,25 +312,19 @@ def delete_staticsite_app_settings(cmd, name, setting_names, resource_group_name
         resource_group_name = _get_resource_group_name_of_staticsite(client, name)
 
     app_settings = list_staticsite_app_settings(cmd, name, resource_group_name, environment_name)
-    deleted_settings = setting_names.copy()
 
     for key in setting_names:
         if key in app_settings.properties:
             app_settings.properties.pop(key)
         else:
             logger.warning("key '%s' not found in app settings", key)
-            deleted_settings.remove(key)
 
     if not environment_name:
-        client.create_or_update_static_site_app_settings(
+        return client.create_or_update_static_site_app_settings(
             resource_group_name, name, app_settings=app_settings)
-    else:
-        client.create_or_update_static_site_build_app_settings(
-            resource_group_name, name, environment_name, app_settings=app_settings)
 
-    # log success status as a warning
-    logger.warning("Successfully deleted %s. Use appsettings list command to view app settings.",
-                   deleted_settings)
+    return client.create_or_update_static_site_build_app_settings(
+        resource_group_name, name, environment_name, app_settings=app_settings)
 
 
 def list_staticsite_users(cmd, name, resource_group_name=None, authentication_provider='all'):
