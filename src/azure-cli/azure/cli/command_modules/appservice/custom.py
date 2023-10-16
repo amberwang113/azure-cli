@@ -453,13 +453,7 @@ def update_app_settings(cmd, resource_group_name, name, settings=None, slot=None
         app_settings_slot_cfg_names = slot_cfg_names.app_setting_names
         client.web_apps.update_slot_configuration_names(resource_group_name, name, slot_cfg_names)
 
-<<<<<<< HEAD
-    # log success status as a warning
-    logger.warning("Successfully updated %s. Use config appsettings list command to view app settings.",
-                   (', '.join(list(result.keys()))))
-=======
     return _build_app_settings_output(result.properties, app_settings_slot_cfg_names)
->>>>>>> parent of 63742f357 (return success status from delete and set instead of json output)
 
 
 # TODO: Update manual polling to use LongRunningOperation once backend API & new SDK supports polling
@@ -1564,20 +1558,10 @@ def delete_app_settings(cmd, resource_group_name, name, setting_names, slot=None
         update_application_settings_polling(cmd, resource_group_name, name, app_settings, slot, client)
         result = _generic_site_operation(cmd.cli_ctx, resource_group_name, name, 'list_application_settings', slot)
     else:
-<<<<<<< HEAD
-        _generic_settings_operation(cmd.cli_ctx, resource_group_name, name,
-                                    'update_application_settings',
-                                    app_settings, slot, client)
-
-    # logging as warning for success status message
-    logger.warning("Successfully deleted %s. Use config appsettings list command to view app settings.",
-                   setting_names)
-=======
         result = _generic_settings_operation(cmd.cli_ctx, resource_group_name, name,
                                              'update_application_settings',
                                              app_settings, slot, client)
     return _build_app_settings_output(result.properties, slot_cfg_names.app_setting_names if slot_cfg_names else [])
->>>>>>> parent of 63742f357 (return success status from delete and set instead of json output)
 
 
 def delete_azure_storage_accounts(cmd, resource_group_name, name, custom_id, slot=None):
