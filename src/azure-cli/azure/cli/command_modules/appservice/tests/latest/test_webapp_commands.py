@@ -685,7 +685,11 @@ class WebappConfigureTest(ScenarioTest):
 
         # site appsettings testing
         # update through key value pairs
-        self.cmd('webapp config appsettings set -g {} -n {} --settings s1=foo s2=bar s3=bar2'.format(resource_group, webapp_name))
+        self.cmd('webapp config appsettings set -g {} -n {} --settings s1=foo s2=bar s3=bar2'.format(resource_group, webapp_name)).assert_with_checks([
+            JMESPathCheck("[?name=='s1']|[0].value", None),
+            JMESPathCheck("[?name=='s2']|[0].value", None),
+            JMESPathCheck("[?name=='s3']|[0].value", None)
+        ])
 
         # show
         result = self.cmd('webapp config appsettings list -g {} -n {}'.format(
@@ -698,7 +702,10 @@ class WebappConfigureTest(ScenarioTest):
             ['s1', 's2', 's3', 'WEBSITE_NODE_DEFAULT_VERSION']))
         # delete
         self.cmd('webapp config appsettings delete -g {} -n {} --setting-names s1 s2'
-                 .format(resource_group, webapp_name))
+                 .format(resource_group, webapp_name)).assert_with_checks([
+                     JMESPathCheck("[?name=='s3']|[0].value", None),
+                     JMESPathCheck("[?name=='WEBSITE_NODE_DEFAULT_VERSION']|[0].value", None)
+                 ])
         self.cmd('webapp config appsettings list -g {} -n {}'.format(
             resource_group, webapp_name)).assert_with_checks([
                 JMESPathCheck("length([?name=='s1'])", 0),
