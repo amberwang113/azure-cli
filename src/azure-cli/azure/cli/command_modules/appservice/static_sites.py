@@ -332,7 +332,7 @@ def delete_staticsite_app_settings(cmd, name, setting_names, resource_group_name
 
 
 def _redact_appsettings(payload):
-    logger.warning('App settings have been redacted. Use appsettings list to view.')
+    logger.warning('App settings have been redacted. Use `az staticwebapp appsettings list` to view.')
     for x in payload.properties:
         payload.properties[x] = None
     return payload
