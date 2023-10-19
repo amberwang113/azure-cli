@@ -1609,7 +1609,7 @@ def _build_app_settings_output(app_settings, slot_cfg_names, redact=False):
 
 
 def _redact_appsettings(settings):
-    logger.warning('App settings have been redacted. Use config appsettings list to view.')
+    logger.warning('App settings have been redacted. Use `az xxx config appsettings list` to view.')
     for x in settings:
         settings[x] = None
     return settings
