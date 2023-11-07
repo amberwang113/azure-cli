@@ -13,8 +13,7 @@ interactions:
       ParameterSetName:
       - -g -n --sku
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003?api-version=2022-03-01
   response:
@@ -30,17 +29,21 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 19 Oct 2023 10:01:07 GMT
+      - Mon, 06 Nov 2023 22:06:53 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
       strict-transport-security:
       - max-age=31536000; includeSubDomains
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-failure-cause:
       - gateway
+      x-msedge-ref:
+      - 'Ref A: 7544730BD4AB481E917A6F7DBFEE1750 Ref B: CO6AA3150220051 Ref C: 2023-11-06T22:06:54Z'
     status:
       code: 404
       message: Not Found
@@ -63,14 +66,13 @@ interactions:
       ParameterSetName:
       - -g -n --sku
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003","name":"swabackends000003","type":"Microsoft.Web/staticSites","location":"Central
-        US","properties":{"defaultHostname":"mango-cliff-0ad2a6910.3.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"13.86.4.76","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.3.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
+        US","properties":{"defaultHostname":"kind-sand-0b377a610.4.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"20.221.45.47","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.4.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
     headers:
       cache-control:
       - no-cache
@@ -79,25 +81,23 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:10 GMT
+      - Mon, 06 Nov 2023 22:06:55 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1185'
+      - '1199'
+      x-msedge-ref:
+      - 'Ref A: BA939C51FB124CA1AEF2FFF76077E2BF Ref B: CO6AA3150220027 Ref C: 2023-11-06T22:06:54Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -117,14 +117,13 @@ interactions:
       ParameterSetName:
       - -g -n --sku
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003","name":"swabackends000003","type":"Microsoft.Web/staticSites","location":"Central
-        US","properties":{"defaultHostname":"mango-cliff-0ad2a6910.3.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"13.86.4.76","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.3.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
+        US","properties":{"defaultHostname":"kind-sand-0b377a610.4.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"20.221.45.47","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.4.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
     headers:
       cache-control:
       - no-cache
@@ -133,19 +132,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:11 GMT
+      - Mon, 06 Nov 2023 22:06:55 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: BC4066F3454146CEB1271DD1DC765847 Ref B: CO6AA3150218035 Ref C: 2023-11-06T22:06:56Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -165,13 +166,12 @@ interactions:
       ParameterSetName:
       - --admin-enabled -g -n --sku
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-resource/23.1.0b2 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-resource/23.1.0b2 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/clitest.rg000001?api-version=2022-09-01
   response:
     body:
-      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"westus","tags":{"product":"azurecli","cause":"automation","test":"test_staticapp_linked_backends","date":"2023-10-19T10:00:43Z","module":"appservice"},"properties":{"provisioningState":"Succeeded"}}'
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"westus","tags":{"product":"azurecli","cause":"automation","test":"test_staticapp_linked_backends","date":"2023-11-06T22:06:31Z","module":"appservice"},"properties":{"provisioningState":"Succeeded"}}'
     headers:
       cache-control:
       - no-cache
@@ -180,17 +180,19 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 19 Oct 2023 10:01:12 GMT
+      - Mon, 06 Nov 2023 22:06:56 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      vary:
-      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 7125AAD7281C4AD18EAEA98C7D628878 Ref B: CO6AA3150218031 Ref C: 2023-11-06T22:06:56Z'
     status:
       code: 200
       message: OK
@@ -213,38 +215,40 @@ interactions:
       ParameterSetName:
       - --admin-enabled -g -n --sku
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-containerregistry/10.1.0 Python/3.10.13
-        (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31) VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-containerregistry/10.1.0 Python/3.8.10
+        (Windows-10-10.0.22631-SP0)
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005?api-version=2022-02-01-preview
   response:
     body:
-      string: '{"sku":{"name":"Basic","tier":"Basic"},"type":"Microsoft.ContainerRegistry/registries","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005","name":"swabackends000005","location":"westus","tags":{},"systemData":{"createdBy":"azureclilivetest@azuresdkteam.onmicrosoft.com","createdByType":"User","createdAt":"2023-10-19T10:01:13.0413257+00:00","lastModifiedBy":"azureclilivetest@azuresdkteam.onmicrosoft.com","lastModifiedByType":"User","lastModifiedAt":"2023-10-19T10:01:13.0413257+00:00"},"properties":{"loginServer":"swabackends000005.azurecr.io","creationDate":"2023-10-19T10:01:13.0413257Z","provisioningState":"Creating","adminUserEnabled":true,"policies":{"quarantinePolicy":{"status":"disabled"},"trustPolicy":{"type":"Notary","status":"disabled"},"retentionPolicy":{"days":7,"lastUpdatedTime":"2023-10-19T10:01:19.9193202+00:00","status":"disabled"},"exportPolicy":{"status":"enabled"},"azureADAuthenticationAsArmPolicy":{"status":"enabled"},"softDeletePolicy":{"retentionDays":7,"lastUpdatedTime":"2023-10-19T10:01:19.9193621+00:00","status":"disabled"}},"encryption":{"status":"disabled"},"dataEndpointEnabled":false,"dataEndpointHostNames":[],"privateEndpointConnections":[],"publicNetworkAccess":"Enabled","networkRuleBypassOptions":"AzureServices","zoneRedundancy":"Disabled","anonymousPullEnabled":false}}'
+      string: '{"sku":{"name":"Basic","tier":"Basic"},"type":"Microsoft.ContainerRegistry/registries","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005","name":"swabackends000005","location":"westus","tags":{},"systemData":{"createdBy":"amberwang@microsoft.com","createdByType":"User","createdAt":"2023-11-06T22:06:57.3282477+00:00","lastModifiedBy":"amberwang@microsoft.com","lastModifiedByType":"User","lastModifiedAt":"2023-11-06T22:06:57.3282477+00:00"},"properties":{"loginServer":"swabackends000005.azurecr.io","creationDate":"2023-11-06T22:06:57.3282477Z","provisioningState":"Creating","adminUserEnabled":true,"policies":{"quarantinePolicy":{"status":"disabled"},"trustPolicy":{"type":"Notary","status":"disabled"},"retentionPolicy":{"days":7,"lastUpdatedTime":"2023-11-06T22:07:03.8400902+00:00","status":"disabled"},"exportPolicy":{"status":"enabled"},"azureADAuthenticationAsArmPolicy":{"status":"enabled"},"softDeletePolicy":{"retentionDays":7,"lastUpdatedTime":"2023-11-06T22:07:03.8401294+00:00","status":"disabled"}},"encryption":{"status":"disabled"},"dataEndpointEnabled":false,"dataEndpointHostNames":[],"privateEndpointConnections":[],"publicNetworkAccess":"Enabled","networkRuleBypassOptions":"AzureServices","zoneRedundancy":"Disabled","anonymousPullEnabled":false}}'
     headers:
       api-supported-versions:
       - 2022-02-01-preview
       azure-asyncoperation:
-      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005/operationStatuses/registries-6ee2c790-6e66-11ee-903b-2dc54b1d6139?api-version=2022-02-01-preview
+      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005/operationStatuses/registries-ccf97403-7cf0-11ee-9043-ac198e5a3cf9?api-version=2022-02-01-preview&t=638349052239689177&c=MIIHHjCCBgagAwIBAgITfwI8ooo2761TEgO3SgAEAjyiijANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSW5mcmEgQ0EgMDIwHhcNMjMxMTAxMTc1NTI2WhcNMjQxMDI2MTc1NTI2WjBAMT4wPAYDVQQDEzVhc3luY29wZXJhdGlvbnNpZ25pbmdjZXJ0aWZpY2F0ZS5tYW5hZ2VtZW50LmF6dXJlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ0WQLjgbZj70uXwL_AnKvEas1GVvOB7Og4giEY7H0L78RFiY2-CzzgMKyZV8H3ACZxqQoBMWsq9XAf4iUNAer7s23VPyWkoVdr2uTc8SCvur4qja77OTMKiRVU277ViRu_Mb-fJvQKeRO3Q8A4Sg1A63a2VQ_WlyOCHPBj-gUF0zU4SYnlqSYGcNmuhCjtHpVvF_N3CGz0JlGTo3ia0wmks2y95IHeD0lcr0AgP73_eafbKafZn4Z56GdC3lngKdhyEiQi_kPyxaydv1PfV2xX9OLKvB19e9jLB43QA9r5k5DsAhqtv6eqwHBdW07S9MCMu8kwoYUpX1TTGapizc6ECAwEAAaOCBAswggQHMCcGCSsGAQQBgjcVCgQaMBgwCgYIKwYBBQUHAwEwCgYIKwYBBQUHAwIwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIhpDjDYTVtHiE8Ys-hZvdFs6dEoFggvX2K4Py0SACAWQCAQowggHaBggrBgEFBQcBAQSCAcwwggHIMGYGCCsGAQUFBzAChlpodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpaW5mcmEvQ2VydHMvQkwyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMEluZnJhJTIwQ0ElMjAwMig0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwxLmFtZS5nYmwvYWlhL0JMMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMi5hbWUuZ2JsL2FpYS9CTDJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSW5mcmElMjBDQSUyMDAyKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDMuYW1lLmdibC9haWEvQkwyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMEluZnJhJTIwQ0ElMjAwMig0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmw0LmFtZS5nYmwvYWlhL0JMMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3J0MB0GA1UdDgQWBBTwk8yVBP3k-Qa8LdSw6mv--mLIvDAOBgNVHQ8BAf8EBAMCBaAwggE1BgNVHR8EggEsMIIBKDCCASSgggEgoIIBHIZCaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NSTC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMS5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMi5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMy5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsNC5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JsMBcGA1UdIAQQMA4wDAYKKwYBBAGCN3sBATAfBgNVHSMEGDAWgBSuecJrXSWIEwb2BwnDl3x7l48dVTAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggEBAKR8h2puMUi3SGdIfblcEylOBfcaCRtDDIvC64QKLae7vOAe1f8SpXEFfYeIl5xydb8lEUYApxL701SQSy-NPuBuuQ0CIMKjZ-xCj9VbjQIykosQBVJvxp5I0TplyumFiehQP3zZuc1PZ2hg05aq3CKSbJGKFlow_8P9RN66yeKWGE7SWV9NZThEL8VfEXjl_ITgWb-L1SmnFKTdOVNVDQoRjjX-JqVobqh0O4K0dsPapDoAdqjIECodvocGyWtCEwIk-j8yyBxqX_JzzumMzxUMrxCjaosaJVOvoJB7vh6WuiYfHondyzaGqjm9Bjpqj46bQXojx6xALlzNX5x_j_g&s=LLC3OsBRRYNySwajxgyfvdw91CsNnJekoHhW6sjGFPPp-WAR3wVilZ-MFzSQ2y9ioxiqD-YCNAztyerUPXJXKiXgAWD3yfiSIiPZMutmvTMk7h2ImSsFAdqyK07TLR2jIy2XLKJmt51HT5iHAh6AiBADvn24rMJ5ssW8I7GXYeN8DIfFmjWnKi-Mpo9D23IydFRHuTfeuDdpSV5e6ttxFitG6QVo0iNcAtunG3314HOzzfyITDWKZ1IbiYWRsopm1_cQFGIc27ef0K7_QeYn6IfFQf9z75vFLX637819av9REQ3H_CVKZ14-h_gogetEIyMfKQEuYZ5T_YOAtZIaLg&h=NGZop6c2UK5s2gF5DGz3OX9wVDbXXqoi0BdbgtH2sfw
       cache-control:
       - no-cache
       content-length:
-      - '1423'
+      - '1379'
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 19 Oct 2023 10:01:20 GMT
+      - Mon, 06 Nov 2023 22:07:03 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Kestrel
       strict-transport-security:
       - max-age=31536000; includeSubDomains
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1194'
+      - '1199'
+      x-msedge-ref:
+      - 'Ref A: 426E918C218F441FBAB990C465B50A42 Ref B: CO6AA3150219031 Ref C: 2023-11-06T22:06:57Z'
     status:
       code: 201
       message: Created
@@ -262,36 +266,38 @@ interactions:
       ParameterSetName:
       - --admin-enabled -g -n --sku
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-containerregistry/10.1.0 Python/3.10.13
-        (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31) VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-containerregistry/10.1.0 Python/3.8.10
+        (Windows-10-10.0.22631-SP0)
     method: GET
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005/operationStatuses/registries-6ee2c790-6e66-11ee-903b-2dc54b1d6139?api-version=2022-02-01-preview
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005/operationStatuses/registries-ccf97403-7cf0-11ee-9043-ac198e5a3cf9?api-version=2022-02-01-preview&t=638349052239689177&c=MIIHHjCCBgagAwIBAgITfwI8ooo2761TEgO3SgAEAjyiijANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSW5mcmEgQ0EgMDIwHhcNMjMxMTAxMTc1NTI2WhcNMjQxMDI2MTc1NTI2WjBAMT4wPAYDVQQDEzVhc3luY29wZXJhdGlvbnNpZ25pbmdjZXJ0aWZpY2F0ZS5tYW5hZ2VtZW50LmF6dXJlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ0WQLjgbZj70uXwL_AnKvEas1GVvOB7Og4giEY7H0L78RFiY2-CzzgMKyZV8H3ACZxqQoBMWsq9XAf4iUNAer7s23VPyWkoVdr2uTc8SCvur4qja77OTMKiRVU277ViRu_Mb-fJvQKeRO3Q8A4Sg1A63a2VQ_WlyOCHPBj-gUF0zU4SYnlqSYGcNmuhCjtHpVvF_N3CGz0JlGTo3ia0wmks2y95IHeD0lcr0AgP73_eafbKafZn4Z56GdC3lngKdhyEiQi_kPyxaydv1PfV2xX9OLKvB19e9jLB43QA9r5k5DsAhqtv6eqwHBdW07S9MCMu8kwoYUpX1TTGapizc6ECAwEAAaOCBAswggQHMCcGCSsGAQQBgjcVCgQaMBgwCgYIKwYBBQUHAwEwCgYIKwYBBQUHAwIwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIhpDjDYTVtHiE8Ys-hZvdFs6dEoFggvX2K4Py0SACAWQCAQowggHaBggrBgEFBQcBAQSCAcwwggHIMGYGCCsGAQUFBzAChlpodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpaW5mcmEvQ2VydHMvQkwyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMEluZnJhJTIwQ0ElMjAwMig0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwxLmFtZS5nYmwvYWlhL0JMMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMi5hbWUuZ2JsL2FpYS9CTDJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSW5mcmElMjBDQSUyMDAyKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDMuYW1lLmdibC9haWEvQkwyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMEluZnJhJTIwQ0ElMjAwMig0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmw0LmFtZS5nYmwvYWlhL0JMMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3J0MB0GA1UdDgQWBBTwk8yVBP3k-Qa8LdSw6mv--mLIvDAOBgNVHQ8BAf8EBAMCBaAwggE1BgNVHR8EggEsMIIBKDCCASSgggEgoIIBHIZCaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NSTC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMS5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMi5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMy5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsNC5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JsMBcGA1UdIAQQMA4wDAYKKwYBBAGCN3sBATAfBgNVHSMEGDAWgBSuecJrXSWIEwb2BwnDl3x7l48dVTAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggEBAKR8h2puMUi3SGdIfblcEylOBfcaCRtDDIvC64QKLae7vOAe1f8SpXEFfYeIl5xydb8lEUYApxL701SQSy-NPuBuuQ0CIMKjZ-xCj9VbjQIykosQBVJvxp5I0TplyumFiehQP3zZuc1PZ2hg05aq3CKSbJGKFlow_8P9RN66yeKWGE7SWV9NZThEL8VfEXjl_ITgWb-L1SmnFKTdOVNVDQoRjjX-JqVobqh0O4K0dsPapDoAdqjIECodvocGyWtCEwIk-j8yyBxqX_JzzumMzxUMrxCjaosaJVOvoJB7vh6WuiYfHondyzaGqjm9Bjpqj46bQXojx6xALlzNX5x_j_g&s=LLC3OsBRRYNySwajxgyfvdw91CsNnJekoHhW6sjGFPPp-WAR3wVilZ-MFzSQ2y9ioxiqD-YCNAztyerUPXJXKiXgAWD3yfiSIiPZMutmvTMk7h2ImSsFAdqyK07TLR2jIy2XLKJmt51HT5iHAh6AiBADvn24rMJ5ssW8I7GXYeN8DIfFmjWnKi-Mpo9D23IydFRHuTfeuDdpSV5e6ttxFitG6QVo0iNcAtunG3314HOzzfyITDWKZ1IbiYWRsopm1_cQFGIc27ef0K7_QeYn6IfFQf9z75vFLX637819av9REQ3H_CVKZ14-h_gogetEIyMfKQEuYZ5T_YOAtZIaLg&h=NGZop6c2UK5s2gF5DGz3OX9wVDbXXqoi0BdbgtH2sfw
   response:
     body:
-      string: '{"status":"Succeeded"}'
+      string: '{"status":"Creating"}'
     headers:
       api-supported-versions:
       - 2022-02-01-preview
       azure-asyncoperation:
-      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005/operationStatuses/registries-6ee2c790-6e66-11ee-903b-2dc54b1d6139?api-version=2022-02-01-preview
+      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005/operationStatuses/registries-ccf97403-7cf0-11ee-9043-ac198e5a3cf9?api-version=2022-02-01-preview&t=638349052241515530&c=MIIHHjCCBgagAwIBAgITfwI8ooo2761TEgO3SgAEAjyiijANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSW5mcmEgQ0EgMDIwHhcNMjMxMTAxMTc1NTI2WhcNMjQxMDI2MTc1NTI2WjBAMT4wPAYDVQQDEzVhc3luY29wZXJhdGlvbnNpZ25pbmdjZXJ0aWZpY2F0ZS5tYW5hZ2VtZW50LmF6dXJlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ0WQLjgbZj70uXwL_AnKvEas1GVvOB7Og4giEY7H0L78RFiY2-CzzgMKyZV8H3ACZxqQoBMWsq9XAf4iUNAer7s23VPyWkoVdr2uTc8SCvur4qja77OTMKiRVU277ViRu_Mb-fJvQKeRO3Q8A4Sg1A63a2VQ_WlyOCHPBj-gUF0zU4SYnlqSYGcNmuhCjtHpVvF_N3CGz0JlGTo3ia0wmks2y95IHeD0lcr0AgP73_eafbKafZn4Z56GdC3lngKdhyEiQi_kPyxaydv1PfV2xX9OLKvB19e9jLB43QA9r5k5DsAhqtv6eqwHBdW07S9MCMu8kwoYUpX1TTGapizc6ECAwEAAaOCBAswggQHMCcGCSsGAQQBgjcVCgQaMBgwCgYIKwYBBQUHAwEwCgYIKwYBBQUHAwIwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIhpDjDYTVtHiE8Ys-hZvdFs6dEoFggvX2K4Py0SACAWQCAQowggHaBggrBgEFBQcBAQSCAcwwggHIMGYGCCsGAQUFBzAChlpodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpaW5mcmEvQ2VydHMvQkwyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMEluZnJhJTIwQ0ElMjAwMig0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwxLmFtZS5nYmwvYWlhL0JMMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMi5hbWUuZ2JsL2FpYS9CTDJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSW5mcmElMjBDQSUyMDAyKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDMuYW1lLmdibC9haWEvQkwyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMEluZnJhJTIwQ0ElMjAwMig0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmw0LmFtZS5nYmwvYWlhL0JMMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3J0MB0GA1UdDgQWBBTwk8yVBP3k-Qa8LdSw6mv--mLIvDAOBgNVHQ8BAf8EBAMCBaAwggE1BgNVHR8EggEsMIIBKDCCASSgggEgoIIBHIZCaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NSTC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMS5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMi5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMy5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsNC5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JsMBcGA1UdIAQQMA4wDAYKKwYBBAGCN3sBATAfBgNVHSMEGDAWgBSuecJrXSWIEwb2BwnDl3x7l48dVTAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggEBAKR8h2puMUi3SGdIfblcEylOBfcaCRtDDIvC64QKLae7vOAe1f8SpXEFfYeIl5xydb8lEUYApxL701SQSy-NPuBuuQ0CIMKjZ-xCj9VbjQIykosQBVJvxp5I0TplyumFiehQP3zZuc1PZ2hg05aq3CKSbJGKFlow_8P9RN66yeKWGE7SWV9NZThEL8VfEXjl_ITgWb-L1SmnFKTdOVNVDQoRjjX-JqVobqh0O4K0dsPapDoAdqjIECodvocGyWtCEwIk-j8yyBxqX_JzzumMzxUMrxCjaosaJVOvoJB7vh6WuiYfHondyzaGqjm9Bjpqj46bQXojx6xALlzNX5x_j_g&s=Wx-3uraDrLkLGPs0ZC8WYM36yX9g3oHUyNdVPDwZ38G0s7K18AQDvT3OZKp8UdktnUtuWAvYA2CVboUxMKNP_Baq5c8qQMW32r6qTmAzeT6sQDQMGojaiZ09SLcR4L4IQ1Y79V1E9YGJxi19X0Ss1tXx77l40E0Rieva4iYA0AL2c1Eyhg_l6LRFuvND62sPKZZjjZ4smkHIJunuJRzcoGRPCQ0g-LjJKpWTUlT3kL2ZAY4yMus82ktX_FtCFPrS_B0yZYq4Oo01d-xcoIb53DMZGVDJGpZ0sNg0NuAaWP5bIrOtkpXhWhNoa0wwDt1C685KpNIfXJ2ut8UsyhCLWA&h=Mc9y_v96cLe04kiQgqwoxQZYEsr3YX1iXcDIdG2hAw4
       cache-control:
       - no-cache
       content-length:
-      - '22'
+      - '21'
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 19 Oct 2023 10:01:20 GMT
+      - Mon, 06 Nov 2023 22:07:03 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Kestrel
       strict-transport-security:
       - max-age=31536000; includeSubDomains
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 1219D30A68EE42F3951B3587F89D2833 Ref B: CO6AA3150219031 Ref C: 2023-11-06T22:07:04Z'
     status:
       code: 200
       message: OK
@@ -309,34 +315,85 @@ interactions:
       ParameterSetName:
       - --admin-enabled -g -n --sku
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-containerregistry/10.1.0 Python/3.10.13
-        (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31) VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-containerregistry/10.1.0 Python/3.8.10
+        (Windows-10-10.0.22631-SP0)
+    method: GET
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005/operationStatuses/registries-ccf97403-7cf0-11ee-9043-ac198e5a3cf9?api-version=2022-02-01-preview&t=638349052239689177&c=MIIHHjCCBgagAwIBAgITfwI8ooo2761TEgO3SgAEAjyiijANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSW5mcmEgQ0EgMDIwHhcNMjMxMTAxMTc1NTI2WhcNMjQxMDI2MTc1NTI2WjBAMT4wPAYDVQQDEzVhc3luY29wZXJhdGlvbnNpZ25pbmdjZXJ0aWZpY2F0ZS5tYW5hZ2VtZW50LmF6dXJlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ0WQLjgbZj70uXwL_AnKvEas1GVvOB7Og4giEY7H0L78RFiY2-CzzgMKyZV8H3ACZxqQoBMWsq9XAf4iUNAer7s23VPyWkoVdr2uTc8SCvur4qja77OTMKiRVU277ViRu_Mb-fJvQKeRO3Q8A4Sg1A63a2VQ_WlyOCHPBj-gUF0zU4SYnlqSYGcNmuhCjtHpVvF_N3CGz0JlGTo3ia0wmks2y95IHeD0lcr0AgP73_eafbKafZn4Z56GdC3lngKdhyEiQi_kPyxaydv1PfV2xX9OLKvB19e9jLB43QA9r5k5DsAhqtv6eqwHBdW07S9MCMu8kwoYUpX1TTGapizc6ECAwEAAaOCBAswggQHMCcGCSsGAQQBgjcVCgQaMBgwCgYIKwYBBQUHAwEwCgYIKwYBBQUHAwIwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIhpDjDYTVtHiE8Ys-hZvdFs6dEoFggvX2K4Py0SACAWQCAQowggHaBggrBgEFBQcBAQSCAcwwggHIMGYGCCsGAQUFBzAChlpodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpaW5mcmEvQ2VydHMvQkwyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMEluZnJhJTIwQ0ElMjAwMig0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwxLmFtZS5nYmwvYWlhL0JMMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMi5hbWUuZ2JsL2FpYS9CTDJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSW5mcmElMjBDQSUyMDAyKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDMuYW1lLmdibC9haWEvQkwyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMEluZnJhJTIwQ0ElMjAwMig0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmw0LmFtZS5nYmwvYWlhL0JMMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3J0MB0GA1UdDgQWBBTwk8yVBP3k-Qa8LdSw6mv--mLIvDAOBgNVHQ8BAf8EBAMCBaAwggE1BgNVHR8EggEsMIIBKDCCASSgggEgoIIBHIZCaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NSTC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMS5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMi5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMy5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsNC5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JsMBcGA1UdIAQQMA4wDAYKKwYBBAGCN3sBATAfBgNVHSMEGDAWgBSuecJrXSWIEwb2BwnDl3x7l48dVTAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggEBAKR8h2puMUi3SGdIfblcEylOBfcaCRtDDIvC64QKLae7vOAe1f8SpXEFfYeIl5xydb8lEUYApxL701SQSy-NPuBuuQ0CIMKjZ-xCj9VbjQIykosQBVJvxp5I0TplyumFiehQP3zZuc1PZ2hg05aq3CKSbJGKFlow_8P9RN66yeKWGE7SWV9NZThEL8VfEXjl_ITgWb-L1SmnFKTdOVNVDQoRjjX-JqVobqh0O4K0dsPapDoAdqjIECodvocGyWtCEwIk-j8yyBxqX_JzzumMzxUMrxCjaosaJVOvoJB7vh6WuiYfHondyzaGqjm9Bjpqj46bQXojx6xALlzNX5x_j_g&s=LLC3OsBRRYNySwajxgyfvdw91CsNnJekoHhW6sjGFPPp-WAR3wVilZ-MFzSQ2y9ioxiqD-YCNAztyerUPXJXKiXgAWD3yfiSIiPZMutmvTMk7h2ImSsFAdqyK07TLR2jIy2XLKJmt51HT5iHAh6AiBADvn24rMJ5ssW8I7GXYeN8DIfFmjWnKi-Mpo9D23IydFRHuTfeuDdpSV5e6ttxFitG6QVo0iNcAtunG3314HOzzfyITDWKZ1IbiYWRsopm1_cQFGIc27ef0K7_QeYn6IfFQf9z75vFLX637819av9REQ3H_CVKZ14-h_gogetEIyMfKQEuYZ5T_YOAtZIaLg&h=NGZop6c2UK5s2gF5DGz3OX9wVDbXXqoi0BdbgtH2sfw
+  response:
+    body:
+      string: '{"status":"Succeeded"}'
+    headers:
+      api-supported-versions:
+      - 2022-02-01-preview
+      azure-asyncoperation:
+      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005/operationStatuses/registries-ccf97403-7cf0-11ee-9043-ac198e5a3cf9?api-version=2022-02-01-preview&t=638349052344370623&c=MIIHHjCCBgagAwIBAgITfwI8ooo2761TEgO3SgAEAjyiijANBgkqhkiG9w0BAQsFADBEMRMwEQYKCZImiZPyLGQBGRYDR0JMMRMwEQYKCZImiZPyLGQBGRYDQU1FMRgwFgYDVQQDEw9BTUUgSW5mcmEgQ0EgMDIwHhcNMjMxMTAxMTc1NTI2WhcNMjQxMDI2MTc1NTI2WjBAMT4wPAYDVQQDEzVhc3luY29wZXJhdGlvbnNpZ25pbmdjZXJ0aWZpY2F0ZS5tYW5hZ2VtZW50LmF6dXJlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ0WQLjgbZj70uXwL_AnKvEas1GVvOB7Og4giEY7H0L78RFiY2-CzzgMKyZV8H3ACZxqQoBMWsq9XAf4iUNAer7s23VPyWkoVdr2uTc8SCvur4qja77OTMKiRVU277ViRu_Mb-fJvQKeRO3Q8A4Sg1A63a2VQ_WlyOCHPBj-gUF0zU4SYnlqSYGcNmuhCjtHpVvF_N3CGz0JlGTo3ia0wmks2y95IHeD0lcr0AgP73_eafbKafZn4Z56GdC3lngKdhyEiQi_kPyxaydv1PfV2xX9OLKvB19e9jLB43QA9r5k5DsAhqtv6eqwHBdW07S9MCMu8kwoYUpX1TTGapizc6ECAwEAAaOCBAswggQHMCcGCSsGAQQBgjcVCgQaMBgwCgYIKwYBBQUHAwEwCgYIKwYBBQUHAwIwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIhpDjDYTVtHiE8Ys-hZvdFs6dEoFggvX2K4Py0SACAWQCAQowggHaBggrBgEFBQcBAQSCAcwwggHIMGYGCCsGAQUFBzAChlpodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpaW5mcmEvQ2VydHMvQkwyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMEluZnJhJTIwQ0ElMjAwMig0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmwxLmFtZS5nYmwvYWlhL0JMMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3J0MFYGCCsGAQUFBzAChkpodHRwOi8vY3JsMi5hbWUuZ2JsL2FpYS9CTDJQS0lJTlRDQTAxLkFNRS5HQkxfQU1FJTIwSW5mcmElMjBDQSUyMDAyKDQpLmNydDBWBggrBgEFBQcwAoZKaHR0cDovL2NybDMuYW1lLmdibC9haWEvQkwyUEtJSU5UQ0EwMS5BTUUuR0JMX0FNRSUyMEluZnJhJTIwQ0ElMjAwMig0KS5jcnQwVgYIKwYBBQUHMAKGSmh0dHA6Ly9jcmw0LmFtZS5nYmwvYWlhL0JMMlBLSUlOVENBMDEuQU1FLkdCTF9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3J0MB0GA1UdDgQWBBTwk8yVBP3k-Qa8LdSw6mv--mLIvDAOBgNVHQ8BAf8EBAMCBaAwggE1BgNVHR8EggEsMIIBKDCCASSgggEgoIIBHIZCaHR0cDovL2NybC5taWNyb3NvZnQuY29tL3BraWluZnJhL0NSTC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMS5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMi5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsMy5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JshjRodHRwOi8vY3JsNC5hbWUuZ2JsL2NybC9BTUUlMjBJbmZyYSUyMENBJTIwMDIoNCkuY3JsMBcGA1UdIAQQMA4wDAYKKwYBBAGCN3sBATAfBgNVHSMEGDAWgBSuecJrXSWIEwb2BwnDl3x7l48dVTAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggEBAKR8h2puMUi3SGdIfblcEylOBfcaCRtDDIvC64QKLae7vOAe1f8SpXEFfYeIl5xydb8lEUYApxL701SQSy-NPuBuuQ0CIMKjZ-xCj9VbjQIykosQBVJvxp5I0TplyumFiehQP3zZuc1PZ2hg05aq3CKSbJGKFlow_8P9RN66yeKWGE7SWV9NZThEL8VfEXjl_ITgWb-L1SmnFKTdOVNVDQoRjjX-JqVobqh0O4K0dsPapDoAdqjIECodvocGyWtCEwIk-j8yyBxqX_JzzumMzxUMrxCjaosaJVOvoJB7vh6WuiYfHondyzaGqjm9Bjpqj46bQXojx6xALlzNX5x_j_g&s=kQigpbvqgwJCyVIwm1tOVUoYSCOoz8C8c_KCHQQPfk3VUPqsjA2WslCfZYVGCTKoXpIAt_RW-10HlseKIe7_OC2sTuETNLG129fKcWiCRC-Y7rs2TjMAwEkU6SNGUwvVufXcy3v8W_juE4Jkfl3AbBnxsumSolMhqpV4h-E0-wvcNiRMfgX6fr4MqguUUCFP0Dx-2oYuJwxR-W6wEv79-CN8tq67LFW4cJVKJijPqmswkIP0tA0wub07dzocD1XoCFkW1RNt8Nw5jL-qKef7FBKymriLrRI1p4dW3S5-WqbnDkpB0fTa76_PpmSqjnmTEzE1V1RxNjYNczc334a2Qw&h=uRyvqlJCGTkXo2DmitGmz6ITh5SpYkiDi6LOdWwWqBM
+      cache-control:
+      - no-cache
+      content-length:
+      - '22'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 06 Nov 2023 22:07:13 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-msedge-ref:
+      - 'Ref A: 3F9F49E5826141988FB126922330646C Ref B: CO6AA3150219031 Ref C: 2023-11-06T22:07:14Z'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - acr create
+      Connection:
+      - keep-alive
+      ParameterSetName:
+      - --admin-enabled -g -n --sku
+      User-Agent:
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-containerregistry/10.1.0 Python/3.8.10
+        (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005?api-version=2022-02-01-preview
   response:
     body:
-      string: '{"sku":{"name":"Basic","tier":"Basic"},"type":"Microsoft.ContainerRegistry/registries","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005","name":"swabackends000005","location":"westus","tags":{},"systemData":{"createdBy":"azureclilivetest@azuresdkteam.onmicrosoft.com","createdByType":"User","createdAt":"2023-10-19T10:01:13.0413257+00:00","lastModifiedBy":"azureclilivetest@azuresdkteam.onmicrosoft.com","lastModifiedByType":"User","lastModifiedAt":"2023-10-19T10:01:13.0413257+00:00"},"properties":{"loginServer":"swabackends000005.azurecr.io","creationDate":"2023-10-19T10:01:13.0413257Z","provisioningState":"Succeeded","adminUserEnabled":true,"policies":{"quarantinePolicy":{"status":"disabled"},"trustPolicy":{"type":"Notary","status":"disabled"},"retentionPolicy":{"days":7,"lastUpdatedTime":"2023-10-19T10:01:19.9193202+00:00","status":"disabled"},"exportPolicy":{"status":"enabled"},"azureADAuthenticationAsArmPolicy":{"status":"enabled"},"softDeletePolicy":{"retentionDays":7,"lastUpdatedTime":"2023-10-19T10:01:19.9193621+00:00","status":"disabled"}},"encryption":{"status":"disabled"},"dataEndpointEnabled":false,"dataEndpointHostNames":[],"privateEndpointConnections":[],"publicNetworkAccess":"Enabled","networkRuleBypassOptions":"AzureServices","zoneRedundancy":"Disabled","anonymousPullEnabled":false}}'
+      string: '{"sku":{"name":"Basic","tier":"Basic"},"type":"Microsoft.ContainerRegistry/registries","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.ContainerRegistry/registries/swabackends000005","name":"swabackends000005","location":"westus","tags":{},"systemData":{"createdBy":"amberwang@microsoft.com","createdByType":"User","createdAt":"2023-11-06T22:06:57.3282477+00:00","lastModifiedBy":"amberwang@microsoft.com","lastModifiedByType":"User","lastModifiedAt":"2023-11-06T22:06:57.3282477+00:00"},"properties":{"loginServer":"swabackends000005.azurecr.io","creationDate":"2023-11-06T22:06:57.3282477Z","provisioningState":"Succeeded","adminUserEnabled":true,"policies":{"quarantinePolicy":{"status":"disabled"},"trustPolicy":{"type":"Notary","status":"disabled"},"retentionPolicy":{"days":7,"lastUpdatedTime":"2023-11-06T22:07:03.8400902+00:00","status":"disabled"},"exportPolicy":{"status":"enabled"},"azureADAuthenticationAsArmPolicy":{"status":"enabled"},"softDeletePolicy":{"retentionDays":7,"lastUpdatedTime":"2023-11-06T22:07:03.8401294+00:00","status":"disabled"}},"encryption":{"status":"disabled"},"dataEndpointEnabled":false,"dataEndpointHostNames":[],"privateEndpointConnections":[],"publicNetworkAccess":"Enabled","networkRuleBypassOptions":"AzureServices","zoneRedundancy":"Disabled","anonymousPullEnabled":false}}'
     headers:
       api-supported-versions:
       - 2022-02-01-preview
       cache-control:
       - no-cache
       content-length:
-      - '1424'
+      - '1380'
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 19 Oct 2023 10:01:20 GMT
+      - Mon, 06 Nov 2023 22:07:13 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Kestrel
       strict-transport-security:
       - max-age=31536000; includeSubDomains
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 09D0379AFF8243A9BD7B68AD087691D4 Ref B: CO6AA3150219031 Ref C: 2023-11-06T22:07:14Z'
     status:
       code: 200
       message: OK
@@ -354,13 +411,12 @@ interactions:
       ParameterSetName:
       - -g -n --sku --is-linux
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-resource/23.1.0b2 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-resource/23.1.0b2 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/clitest.rg000001?api-version=2022-09-01
   response:
     body:
-      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"westus","tags":{"product":"azurecli","cause":"automation","test":"test_staticapp_linked_backends","date":"2023-10-19T10:00:43Z","module":"appservice"},"properties":{"provisioningState":"Succeeded"}}'
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001","name":"clitest.rg000001","type":"Microsoft.Resources/resourceGroups","location":"westus","tags":{"product":"azurecli","cause":"automation","test":"test_staticapp_linked_backends","date":"2023-11-06T22:06:31Z","module":"appservice"},"properties":{"provisioningState":"Succeeded"}}'
     headers:
       cache-control:
       - no-cache
@@ -369,17 +425,19 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 19 Oct 2023 10:01:20 GMT
+      - Mon, 06 Nov 2023 22:07:14 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      vary:
-      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 28C8192130784BAD914DF728D4F5AD48 Ref B: CO6AA3150218049 Ref C: 2023-11-06T22:07:14Z'
     status:
       code: 200
       message: OK
@@ -403,14 +461,13 @@ interactions:
       ParameterSetName:
       - -g -n --sku --is-linux
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004?api-version=2022-03-01
   response:
     body:
-      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004","name":"swabackends000004","type":"Microsoft.Web/serverfarms","kind":"linux","location":"westus","properties":{"serverFarmId":9160,"name":"swabackends000004","sku":{"name":"S1","tier":"Standard","size":"S1","family":"S","capacity":1},"workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-WestUSwebspace-Linux","subscription":"0b1f6471-1bf0-4dda-aec3-cb9272f09590","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":0,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"West
-        US","perSiteScaling":false,"elasticScaleEnabled":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"linux","resourceGroup":"clitest.rg000001","reserved":true,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-bay-239_9160","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"kubeEnvironmentProfile":null,"zoneRedundant":false,"migrateToVMSS":null,"vnetConnectionsUsed":null,"vnetConnectionsMax":null,"createdTime":"2023-10-19T10:01:24.06"},"sku":{"name":"S1","tier":"Standard","size":"S1","family":"S","capacity":1}}'
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004","name":"swabackends000004","type":"Microsoft.Web/serverfarms","kind":"linux","location":"westus","properties":{"serverFarmId":9985,"name":"swabackends000004","sku":{"name":"S1","tier":"Standard","size":"S1","family":"S","capacity":1},"workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-WestUSwebspace-Linux","subscription":"50821c37-1271-4210-8e1f-568acc6ecc66","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":0,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"West
+        US","perSiteScaling":false,"elasticScaleEnabled":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"linux","resourceGroup":"clitest.rg000001","reserved":true,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-bay-239_9985","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"kubeEnvironmentProfile":null,"zoneRedundant":false,"migrateToVMSS":null,"vnetConnectionsUsed":null,"vnetConnectionsMax":null,"createdTime":"2023-11-06T22:07:17.28"},"sku":{"name":"S1","tier":"Standard","size":"S1","family":"S","capacity":1}}'
     headers:
       cache-control:
       - no-cache
@@ -419,27 +476,25 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:27 GMT
+      - Mon, 06 Nov 2023 22:07:19 GMT
       etag:
-      - '"1DA0273383E840B"'
+      - '"1DA10FD9B5D3C40"'
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1193'
+      - '1198'
+      x-msedge-ref:
+      - 'Ref A: B5DA2102A6AC4345AC787B8B89CE89D7 Ref B: CO6AA3150219023 Ref C: 2023-11-06T22:07:15Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -459,15 +514,14 @@ interactions:
       ParameterSetName:
       - -g -n -s --plan --functions-version --runtime
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004","name":"swabackends000004","type":"Microsoft.Web/serverfarms","kind":"linux","location":"West
-        US","properties":{"serverFarmId":9160,"name":"swabackends000004","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-WestUSwebspace-Linux","subscription":"0b1f6471-1bf0-4dda-aec3-cb9272f09590","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"West
-        US","perSiteScaling":false,"elasticScaleEnabled":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"linux","resourceGroup":"clitest.rg000001","reserved":true,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-bay-239_9160","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"kubeEnvironmentProfile":null,"zoneRedundant":false,"migrateToVMSS":null,"vnetConnectionsUsed":0,"vnetConnectionsMax":2,"createdTime":"2023-10-19T10:01:24.06"},"sku":{"name":"S1","tier":"Standard","size":"S1","family":"S","capacity":1}}'
+        US","properties":{"serverFarmId":9985,"name":"swabackends000004","workerSize":"Default","workerSizeId":0,"workerTierName":null,"numberOfWorkers":1,"currentWorkerSize":"Default","currentWorkerSizeId":0,"currentNumberOfWorkers":1,"status":"Ready","webSpace":"clitest.rg000001-WestUSwebspace-Linux","subscription":"50821c37-1271-4210-8e1f-568acc6ecc66","adminSiteName":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"maximumNumberOfWorkers":10,"planName":"VirtualDedicatedPlan","adminRuntimeSiteName":null,"computeMode":"Dedicated","siteMode":null,"geoRegion":"West
+        US","perSiteScaling":false,"elasticScaleEnabled":false,"maximumElasticWorkerCount":1,"numberOfSites":0,"hostingEnvironmentId":null,"isSpot":false,"spotExpirationTime":null,"freeOfferExpirationTime":null,"tags":null,"kind":"linux","resourceGroup":"clitest.rg000001","reserved":true,"isXenon":false,"hyperV":false,"mdmId":"waws-prod-bay-239_9985","targetWorkerCount":0,"targetWorkerSizeId":0,"provisioningState":"Succeeded","webSiteId":null,"existingServerFarmIds":null,"kubeEnvironmentProfile":null,"zoneRedundant":false,"migrateToVMSS":null,"vnetConnectionsUsed":0,"vnetConnectionsMax":2,"createdTime":"2023-11-06T22:07:17.28"},"sku":{"name":"S1","tier":"Standard","size":"S1","family":"S","capacity":1}}'
     headers:
       cache-control:
       - no-cache
@@ -476,23 +530,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:27 GMT
+      - Mon, 06 Nov 2023 22:07:19 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 544BC1AF7275490DB536CA5D241D605E Ref B: CO6AA3150219053 Ref C: 2023-11-06T22:07:20Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -512,8 +564,7 @@ interactions:
       ParameterSetName:
       - -g -n -s --plan --functions-version --runtime
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/providers/Microsoft.Web/functionAppStacks?api-version=2022-03-01
   response:
@@ -573,19 +624,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:27 GMT
+      - Mon, 06 Nov 2023 22:07:19 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 4D7657542400461FA8A8EC95F3A80351 Ref B: CO6AA3150218053 Ref C: 2023-11-06T22:07:20Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -605,36 +658,33 @@ interactions:
       ParameterSetName:
       - -g -n -s --plan --functions-version --runtime
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-storage/21.1.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-storage/21.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Storage/storageAccounts/clitest000002?api-version=2023-01-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Storage/storageAccounts/clitest000002?api-version=2022-09-01
   response:
     body:
-      string: '{"sku":{"name":"Standard_LRS","tier":"Standard"},"kind":"Storage","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Storage/storageAccounts/clitest000002","name":"clitest000002","type":"Microsoft.Storage/storageAccounts","location":"westus","tags":{},"properties":{"keyCreationTime":{"key1":"2023-10-19T10:00:46.6076651Z","key2":"2023-10-19T10:00:46.6076651Z"},"privateEndpointConnections":[],"minimumTlsVersion":"TLS1_0","allowBlobPublicAccess":false,"networkAcls":{"ipv6Rules":[],"bypass":"AzureServices","virtualNetworkRules":[],"ipRules":[],"defaultAction":"Allow"},"supportsHttpsTrafficOnly":true,"encryption":{"services":{"file":{"keyType":"Account","enabled":true,"lastEnabledTime":"2023-10-19T10:00:47.2483135Z"},"blob":{"keyType":"Account","enabled":true,"lastEnabledTime":"2023-10-19T10:00:47.2483135Z"}},"keySource":"Microsoft.Storage"},"provisioningState":"Succeeded","creationTime":"2023-10-19T10:00:46.4201628Z","primaryEndpoints":{"blob":"https://clitest000002.blob.core.windows.net/","queue":"https://clitest000002.queue.core.windows.net/","table":"https://clitest000002.table.core.windows.net/","file":"https://clitest000002.file.core.windows.net/"},"primaryLocation":"westus","statusOfPrimary":"available"}}'
+      string: '{"sku":{"name":"Standard_LRS","tier":"Standard"},"kind":"Storage","id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Storage/storageAccounts/clitest000002","name":"clitest000002","type":"Microsoft.Storage/storageAccounts","location":"westus","tags":{},"properties":{"keyCreationTime":{"key1":"2023-11-06T22:06:33.1448386Z","key2":"2023-11-06T22:06:33.1448386Z"},"privateEndpointConnections":[],"minimumTlsVersion":"TLS1_0","allowBlobPublicAccess":false,"networkAcls":{"bypass":"AzureServices","virtualNetworkRules":[],"ipRules":[],"defaultAction":"Allow"},"supportsHttpsTrafficOnly":true,"encryption":{"services":{"file":{"keyType":"Account","enabled":true,"lastEnabledTime":"2023-11-06T22:06:33.2542289Z"},"blob":{"keyType":"Account","enabled":true,"lastEnabledTime":"2023-11-06T22:06:33.2542289Z"}},"keySource":"Microsoft.Storage"},"provisioningState":"Succeeded","creationTime":"2023-11-06T22:06:33.0667146Z","primaryEndpoints":{"blob":"https://clitest000002.blob.core.windows.net/","queue":"https://clitest000002.queue.core.windows.net/","table":"https://clitest000002.table.core.windows.net/","file":"https://clitest000002.file.core.windows.net/"},"primaryLocation":"westus","statusOfPrimary":"available"}}'
     headers:
       cache-control:
       - no-cache
       content-length:
-      - '1285'
+      - '1270'
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:28 GMT
+      - Mon, 06 Nov 2023 22:07:20 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 121B816D04E14D6B8466C05AA4C7182F Ref B: CO6AA3150219045 Ref C: 2023-11-06T22:07:20Z'
     status:
       code: 200
       message: OK
@@ -654,13 +704,12 @@ interactions:
       ParameterSetName:
       - -g -n -s --plan --functions-version --runtime
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-storage/21.1.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-storage/21.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: POST
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Storage/storageAccounts/clitest000002/listKeys?api-version=2023-01-01&$expand=kerb
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Storage/storageAccounts/clitest000002/listKeys?api-version=2022-09-01&$expand=kerb
   response:
     body:
-      string: '{"keys":[{"creationTime":"2023-10-19T10:00:46.6076651Z","keyName":"key1","value":"veryFakedStorageAccountKey==","permissions":"FULL"},{"creationTime":"2023-10-19T10:00:46.6076651Z","keyName":"key2","value":"veryFakedStorageAccountKey==","permissions":"FULL"}]}'
+      string: '{"keys":[{"creationTime":"2023-11-06T22:06:33.1448386Z","keyName":"key1","value":"veryFakedStorageAccountKey==","permissions":"FULL"},{"creationTime":"2023-11-06T22:06:33.1448386Z","keyName":"key2","value":"veryFakedStorageAccountKey==","permissions":"FULL"}]}'
     headers:
       cache-control:
       - no-cache
@@ -669,23 +718,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:28 GMT
+      - Mon, 06 Nov 2023 22:07:20 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-Azure-Storage-Resource-Provider/1.0,Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-resource-requests:
       - '11999'
+      x-msedge-ref:
+      - 'Ref A: EE3A2D16027A420F8658B13E1DD093BF Ref B: CO6AA3150219045 Ref C: 2023-11-06T22:07:20Z'
     status:
       code: 200
       message: OK
@@ -693,7 +740,7 @@ interactions:
     body: '{"kind": "functionapp,linux", "location": "West US", "properties": {"serverFarmId":
       "swabackends000004", "reserved": true, "isXenon": false, "hyperV": false, "siteConfig":
       {"netFrameworkVersion": "v4.6", "linuxFxVersion": "Node|14", "appSettings":
-      [{"name": "MACHINEKEY_DecryptionKey", "value": "94492E39F961786831D1164CD783C5FB39E5F5BBCA201EE591E96EDB1B68DB0A"},
+      [{"name": "MACHINEKEY_DecryptionKey", "value": "80D6540E44D5886A63F6430E40E34BC78DD0A9D5C10E83EFCBA0E2C27964AD39"},
       {"name": "WEBSITES_ENABLE_APP_SERVICE_STORAGE", "value": "true"}, {"name": "FUNCTIONS_WORKER_RUNTIME",
       "value": "node"}, {"name": "FUNCTIONS_EXTENSION_VERSION", "value": "~3"}, {"name":
       "AzureWebJobsStorage", "value": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey=="}],
@@ -715,16 +762,15 @@ interactions:
       ParameterSetName:
       - -g -n -s --plan --functions-version --runtime
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","name":"swabackends000005","type":"Microsoft.Web/sites","kind":"functionapp,linux","location":"West
-        US","properties":{"name":"swabackends000005","state":"Running","hostNames":["swabackends000005.azurewebsites.net"],"webSpace":"clitest.rg000001-WestUSwebspace-Linux","selfLink":"https://waws-prod-bay-239.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-WestUSwebspace-Linux/sites/swabackends000005","repositorySiteName":"swabackends000005","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"afdEnabled":false,"enabledHostNames":["swabackends000005.azurewebsites.net","swabackends000005.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":"Node|14"},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"swabackends000005.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"swabackends000005.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004","reserved":true,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2023-10-19T10:01:31.4966667","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","dnsConfiguration":{},"vnetRouteAllEnabled":false,"containerAllocationSubnet":null,"useContainerLocalhostBindings":null,"vnetImagePullEnabled":false,"vnetContentShareEnabled":false,"siteConfig":{"numberOfWorkers":1,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":"","windowsFxVersion":null,"windowsConfiguredStacks":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":false,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"publicNetworkAccess":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"keyVaultReferenceIdentity":null,"ipSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":2147483647,"name":"Allow
+        US","properties":{"name":"swabackends000005","state":"Running","hostNames":["swabackends000005.azurewebsites.net"],"webSpace":"clitest.rg000001-WestUSwebspace-Linux","selfLink":"https://waws-prod-bay-239.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-WestUSwebspace-Linux/sites/swabackends000005","repositorySiteName":"swabackends000005","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"afdEnabled":false,"enabledHostNames":["swabackends000005.azurewebsites.net","swabackends000005.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":"Node|14"},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"swabackends000005.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"swabackends000005.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004","reserved":true,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2023-11-06T22:07:22.7033333","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","dnsConfiguration":{},"vnetRouteAllEnabled":false,"containerAllocationSubnet":null,"useContainerLocalhostBindings":null,"vnetImagePullEnabled":false,"vnetContentShareEnabled":false,"siteConfig":{"numberOfWorkers":1,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":"","windowsFxVersion":null,"windowsConfiguredStacks":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":false,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"publicNetworkAccess":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"keyVaultReferenceIdentity":null,"ipSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":2147483647,"name":"Allow
         all","description":"Allow all access"}],"ipSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictions":[{"ipAddress":"Any","action":"Allow","priority":2147483647,"name":"Allow
-        all","description":"Allow all access"}],"scmIpSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":false,"minTlsVersion":null,"minTlsCipherSuite":null,"supportedTlsCipherSuites":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":0,"elasticWebAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0,"azureStorageAccounts":null,"http20ProxyFlag":null,"sitePort":null,"antivirusScanEnabled":null,"storageType":null,"sitePrivateLinkHostEnabled":null},"daprConfig":null,"deploymentId":"swabackends000005","slotName":null,"trafficManagerHostNames":null,"sku":"Standard","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":false,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"ipMode":"IPv4","vnetBackupRestoreEnabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"253001F2FCF5A7B1CD759EB861E9BB1596370BE27E47A991F72184277B3D12F2","kind":"functionapp,linux","managedEnvironmentId":null,"inboundIpAddress":"40.112.243.119","possibleInboundIpAddresses":"40.112.243.119","ftpUsername":"swabackends000005\\$swabackends000005","ftpsHostName":"ftps://waws-prod-bay-239.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,40.112.243.119","possibleOutboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,20.245.86.181,20.245.86.182,20.245.83.255,20.245.86.201,20.245.172.211,20.237.199.208,20.245.87.5,20.245.86.246,20.245.87.30,20.245.87.39,20.245.87.108,20.245.215.26,20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.66.120.196,20.66.120.222,20.66.121.96,20.66.121.134,20.66.121.174,20.66.120.162,40.112.243.119","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-bay-239","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000001","defaultHostName":"swabackends000005.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"endToEndEncryptionEnabled":false,"functionsRuntimeAdminIsolationEnabled":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":null,"publicNetworkAccess":null,"buildVersion":null,"targetBuildVersion":null,"migrationState":null,"eligibleLogCategories":"FunctionAppLogs","inFlightFeatures":null,"storageAccountRequired":false,"virtualNetworkSubnetId":null,"keyVaultReferenceIdentity":"SystemAssigned","defaultHostNameScope":"Global","privateLinkIdentifiers":null,"sshEnabled":null}}'
+        all","description":"Allow all access"}],"scmIpSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":false,"minTlsVersion":null,"minTlsCipherSuite":null,"supportedTlsCipherSuites":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":0,"elasticWebAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0,"azureStorageAccounts":null,"http20ProxyFlag":null,"sitePort":null,"antivirusScanEnabled":null,"storageType":null,"sitePrivateLinkHostEnabled":null},"daprConfig":null,"deploymentId":"swabackends000005","slotName":null,"trafficManagerHostNames":null,"sku":"Standard","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":false,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"ipMode":"IPv4","vnetBackupRestoreEnabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"C4C02A18828506F81C8FA754DCC380496D4C309F80135C91EE4748B49E9BCDD1","kind":"functionapp,linux","managedEnvironmentId":null,"inboundIpAddress":"40.112.243.119","possibleInboundIpAddresses":"40.112.243.119","ftpUsername":"swabackends000005\\$swabackends000005","ftpsHostName":"ftps://waws-prod-bay-239.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,40.112.243.119","possibleOutboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,20.245.86.181,20.245.86.182,20.245.83.255,20.245.86.201,20.245.172.211,20.237.199.208,20.245.87.5,20.245.86.246,20.245.87.30,20.245.87.39,20.245.87.108,20.245.215.26,20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.66.120.196,20.66.120.222,20.66.121.96,20.66.121.134,20.66.121.174,20.66.120.162,40.112.243.119","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-bay-239","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000001","defaultHostName":"swabackends000005.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"endToEndEncryptionEnabled":false,"functionsRuntimeAdminIsolationEnabled":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":null,"publicNetworkAccess":null,"buildVersion":null,"targetBuildVersion":null,"migrationState":null,"eligibleLogCategories":"FunctionAppLogs","inFlightFeatures":null,"storageAccountRequired":false,"virtualNetworkSubnetId":null,"keyVaultReferenceIdentity":"SystemAssigned","defaultHostNameScope":"Global","privateLinkIdentifiers":null,"sshEnabled":null}}'
     headers:
       cache-control:
       - no-cache
@@ -733,27 +779,25 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:49 GMT
+      - Mon, 06 Nov 2023 22:07:40 GMT
       etag:
-      - '"1DA02733C90C72B"'
+      - '"1DA10FD9E7ED495"'
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-resource-requests:
       - '499'
+      x-msedge-ref:
+      - 'Ref A: 66F31F19AACA4D3A96405FEA6E9455DB Ref B: CO6AA3150219053 Ref C: 2023-11-06T22:07:20Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -778,8 +822,8 @@ interactions:
       ParameterSetName:
       - -g -n -s --plan --functions-version --runtime
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-applicationinsights/1.0.0 Python/3.10.13
-        (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31) VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-applicationinsights/1.0.0 Python/3.8.10
+        (Windows-10-10.0.22631-SP0)
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Insights/components/swabackends000005?api-version=2015-05-01
   response:
@@ -787,13 +831,13 @@ interactions:
       string: "{\r\n  \"id\": \"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/microsoft.insights/components/swabackends000005\",\r\n
         \ \"name\": \"swabackends000005\",\r\n  \"type\": \"microsoft.insights/components\",\r\n
         \ \"location\": \"westus\",\r\n  \"tags\": {},\r\n  \"kind\": \"web\",\r\n
-        \ \"etag\": \"\\\"d00079fe-0000-0200-0000-6530fe900000\\\"\",\r\n  \"properties\":
-        {\r\n    \"ApplicationId\": \"swabackends000005\",\r\n    \"AppId\": \"f6e883b6-af11-4a93-8c5d-ebed0106718d\",\r\n
+        \ \"etag\": \"\\\"4801a13b-0000-0200-0000-654963ae0000\\\"\",\r\n  \"properties\":
+        {\r\n    \"ApplicationId\": \"swabackends000005\",\r\n    \"AppId\": \"9f01bca8-096d-4a22-a88d-152e9194124a\",\r\n
         \   \"Application_Type\": \"web\",\r\n    \"Flow_Type\": null,\r\n    \"Request_Source\":
-        null,\r\n    \"InstrumentationKey\": \"16dd9001-640e-4e8e-96a4-2498ea8462b2\",\r\n
-        \   \"ConnectionString\": \"InstrumentationKey=16dd9001-640e-4e8e-96a4-2498ea8462b2;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/\",\r\n
-        \   \"Name\": \"swabackends000005\",\r\n    \"CreationDate\": \"2023-10-19T10:01:52.6007271+00:00\",\r\n
-        \   \"TenantId\": \"0b1f6471-1bf0-4dda-aec3-cb9272f09590\",\r\n    \"provisioningState\":
+        null,\r\n    \"InstrumentationKey\": \"d6561f22-c0c3-499d-83d5-be47f62b69c0\",\r\n
+        \   \"ConnectionString\": \"InstrumentationKey=d6561f22-c0c3-499d-83d5-be47f62b69c0;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/\",\r\n
+        \   \"Name\": \"swabackends000005\",\r\n    \"CreationDate\": \"2023-11-06T22:07:42.5291272+00:00\",\r\n
+        \   \"TenantId\": \"50821c37-1271-4210-8e1f-568acc6ecc66\",\r\n    \"provisioningState\":
         \"Succeeded\",\r\n    \"SamplingPercentage\": null,\r\n    \"RetentionInDays\":
         90,\r\n    \"IngestionMode\": \"ApplicationInsights\",\r\n    \"publicNetworkAccessForIngestion\":
         \"Enabled\",\r\n    \"publicNetworkAccessForQuery\": \"Enabled\",\r\n    \"Ver\":
@@ -808,25 +852,23 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 19 Oct 2023 10:01:52 GMT
+      - Mon, 06 Nov 2023 22:07:42 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
       request-context:
       - appId=cid-v1:0dd6a9c3-b728-41ca-aa78-7e1962e22331
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1191'
+      - '1199'
+      x-msedge-ref:
+      - 'Ref A: 7D136A727857478FB6F2AC833A296D36 Ref B: CO6AA3150218027 Ref C: 2023-11-06T22:07:41Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -846,37 +888,38 @@ interactions:
       ParameterSetName:
       - -g -n -s --plan --functions-version --runtime
       User-Agent:
-      - python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31) AZURECLI/2.53.0
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - python/3.8.10 (Windows-10-10.0.22631-SP0) AZURECLI/2.53.1
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","name":"swabackends000005","type":"Microsoft.Web/sites","kind":"functionapp,linux","location":"West
-        US","properties":{"name":"swabackends000005","state":"Running","hostNames":["swabackends000005.azurewebsites.net"],"webSpace":"clitest.rg000001-WestUSwebspace-Linux","selfLink":"https://waws-prod-bay-239.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-WestUSwebspace-Linux/sites/swabackends000005","repositorySiteName":"swabackends000005","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"afdEnabled":false,"enabledHostNames":["swabackends000005.azurewebsites.net","swabackends000005.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":"Node|14"},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"swabackends000005.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"swabackends000005.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004","reserved":true,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2023-10-19T10:01:49.82","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","dnsConfiguration":{},"vnetRouteAllEnabled":false,"containerAllocationSubnet":null,"useContainerLocalhostBindings":null,"vnetImagePullEnabled":false,"vnetContentShareEnabled":false,"siteConfig":{"numberOfWorkers":1,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":"Node|14","windowsFxVersion":null,"windowsConfiguredStacks":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":true,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"publicNetworkAccess":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"keyVaultReferenceIdentity":null,"ipSecurityRestrictions":null,"ipSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictions":null,"scmIpSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":true,"minTlsVersion":null,"minTlsCipherSuite":null,"supportedTlsCipherSuites":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":0,"elasticWebAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0,"azureStorageAccounts":null,"http20ProxyFlag":null,"sitePort":null,"antivirusScanEnabled":null,"storageType":null,"sitePrivateLinkHostEnabled":null},"daprConfig":null,"deploymentId":"swabackends000005","slotName":null,"trafficManagerHostNames":null,"sku":"Standard","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":false,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"ipMode":"IPv4","vnetBackupRestoreEnabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"253001F2FCF5A7B1CD759EB861E9BB1596370BE27E47A991F72184277B3D12F2","kind":"functionapp,linux","managedEnvironmentId":null,"inboundIpAddress":"40.112.243.119","possibleInboundIpAddresses":"40.112.243.119","ftpUsername":"swabackends000005\\$swabackends000005","ftpsHostName":"ftps://waws-prod-bay-239.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,40.112.243.119","possibleOutboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,20.245.86.181,20.245.86.182,20.245.83.255,20.245.86.201,20.245.172.211,20.237.199.208,20.245.87.5,20.245.86.246,20.245.87.30,20.245.87.39,20.245.87.108,20.245.215.26,20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.66.120.196,20.66.120.222,20.66.121.96,20.66.121.134,20.66.121.174,20.66.120.162,40.112.243.119","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-bay-239","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000001","defaultHostName":"swabackends000005.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"endToEndEncryptionEnabled":false,"functionsRuntimeAdminIsolationEnabled":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":[],"publicNetworkAccess":null,"buildVersion":null,"targetBuildVersion":null,"migrationState":null,"eligibleLogCategories":"FunctionAppLogs","inFlightFeatures":[],"storageAccountRequired":false,"virtualNetworkSubnetId":null,"keyVaultReferenceIdentity":"SystemAssigned","defaultHostNameScope":"Global","privateLinkIdentifiers":null,"sshEnabled":null}}'
+        US","properties":{"name":"swabackends000005","state":"Running","hostNames":["swabackends000005.azurewebsites.net"],"webSpace":"clitest.rg000001-WestUSwebspace-Linux","selfLink":"https://waws-prod-bay-239.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-WestUSwebspace-Linux/sites/swabackends000005","repositorySiteName":"swabackends000005","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"afdEnabled":false,"enabledHostNames":["swabackends000005.azurewebsites.net","swabackends000005.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":"Node|14"},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"swabackends000005.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"swabackends000005.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004","reserved":true,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2023-11-06T22:07:41.0533333","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","dnsConfiguration":{},"vnetRouteAllEnabled":false,"containerAllocationSubnet":null,"useContainerLocalhostBindings":null,"vnetImagePullEnabled":false,"vnetContentShareEnabled":false,"siteConfig":{"numberOfWorkers":1,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":"Node|14","windowsFxVersion":null,"windowsConfiguredStacks":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":true,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"publicNetworkAccess":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"keyVaultReferenceIdentity":null,"ipSecurityRestrictions":null,"ipSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictions":null,"scmIpSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":true,"minTlsVersion":null,"minTlsCipherSuite":null,"supportedTlsCipherSuites":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":0,"elasticWebAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0,"azureStorageAccounts":null,"http20ProxyFlag":null,"sitePort":null,"antivirusScanEnabled":null,"storageType":null,"sitePrivateLinkHostEnabled":null},"daprConfig":null,"deploymentId":"swabackends000005","slotName":null,"trafficManagerHostNames":null,"sku":"Standard","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":false,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"ipMode":"IPv4","vnetBackupRestoreEnabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"C4C02A18828506F81C8FA754DCC380496D4C309F80135C91EE4748B49E9BCDD1","kind":"functionapp,linux","managedEnvironmentId":null,"inboundIpAddress":"40.112.243.119","possibleInboundIpAddresses":"40.112.243.119","ftpUsername":"swabackends000005\\$swabackends000005","ftpsHostName":"ftps://waws-prod-bay-239.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,40.112.243.119","possibleOutboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,20.245.86.181,20.245.86.182,20.245.83.255,20.245.86.201,20.245.172.211,20.237.199.208,20.245.87.5,20.245.86.246,20.245.87.30,20.245.87.39,20.245.87.108,20.245.215.26,20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.66.120.196,20.66.120.222,20.66.121.96,20.66.121.134,20.66.121.174,20.66.120.162,40.112.243.119","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-bay-239","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000001","defaultHostName":"swabackends000005.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"endToEndEncryptionEnabled":false,"functionsRuntimeAdminIsolationEnabled":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":[],"publicNetworkAccess":null,"buildVersion":null,"targetBuildVersion":null,"migrationState":null,"eligibleLogCategories":"FunctionAppLogs","inFlightFeatures":[],"storageAccountRequired":false,"virtualNetworkSubnetId":null,"keyVaultReferenceIdentity":"SystemAssigned","defaultHostNameScope":"Global","privateLinkIdentifiers":null,"sshEnabled":null}}'
     headers:
       cache-control:
       - no-cache
       content-length:
-      - '7005'
+      - '7010'
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:53 GMT
+      - Mon, 06 Nov 2023 22:07:42 GMT
       etag:
-      - '"1DA0273471983C0"'
+      - '"1DA10FDA917D7D5"'
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: D747DF982B554E58BC7AB04CBFD1F9BE Ref B: CO6AA3150217037 Ref C: 2023-11-06T22:07:42Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -898,14 +941,13 @@ interactions:
       ParameterSetName:
       - -g -n -s --plan --functions-version --runtime
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: POST
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005/config/appsettings/list?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"West
-        US","properties":{"MACHINEKEY_DecryptionKey":"94492E39F961786831D1164CD783C5FB39E5F5BBCA201EE591E96EDB1B68DB0A","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"true","FUNCTIONS_WORKER_RUNTIME":"node","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey=="}}'
+        US","properties":{"MACHINEKEY_DecryptionKey":"80D6540E44D5886A63F6430E40E34BC78DD0A9D5C10E83EFCBA0E2C27964AD39","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"true","FUNCTIONS_WORKER_RUNTIME":"node","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey=="}}'
     headers:
       cache-control:
       - no-cache
@@ -914,21 +956,23 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:53 GMT
+      - Mon, 06 Nov 2023 22:07:43 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-resource-requests:
       - '11998'
+      x-msedge-ref:
+      - 'Ref A: 1E67CA8402EC47F4B13A3C930B0DF894 Ref B: CO6AA3150219039 Ref C: 2023-11-06T22:07:43Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -948,51 +992,48 @@ interactions:
       ParameterSetName:
       - -g -n -s --plan --functions-version --runtime
       User-Agent:
-      - python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31) AZURECLI/2.53.0
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - python/3.8.10 (Windows-10-10.0.22631-SP0) AZURECLI/2.53.1
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","name":"swabackends000005","type":"Microsoft.Web/sites","kind":"functionapp,linux","location":"West
-        US","properties":{"name":"swabackends000005","state":"Running","hostNames":["swabackends000005.azurewebsites.net"],"webSpace":"clitest.rg000001-WestUSwebspace-Linux","selfLink":"https://waws-prod-bay-239.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-WestUSwebspace-Linux/sites/swabackends000005","repositorySiteName":"swabackends000005","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"afdEnabled":false,"enabledHostNames":["swabackends000005.azurewebsites.net","swabackends000005.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":"Node|14"},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"swabackends000005.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"swabackends000005.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004","reserved":true,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2023-10-19T10:01:49.82","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","dnsConfiguration":{},"vnetRouteAllEnabled":false,"containerAllocationSubnet":null,"useContainerLocalhostBindings":null,"vnetImagePullEnabled":false,"vnetContentShareEnabled":false,"siteConfig":{"numberOfWorkers":1,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":"Node|14","windowsFxVersion":null,"windowsConfiguredStacks":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":true,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"publicNetworkAccess":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"keyVaultReferenceIdentity":null,"ipSecurityRestrictions":null,"ipSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictions":null,"scmIpSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":true,"minTlsVersion":null,"minTlsCipherSuite":null,"supportedTlsCipherSuites":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":0,"elasticWebAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0,"azureStorageAccounts":null,"http20ProxyFlag":null,"sitePort":null,"antivirusScanEnabled":null,"storageType":null,"sitePrivateLinkHostEnabled":null},"daprConfig":null,"deploymentId":"swabackends000005","slotName":null,"trafficManagerHostNames":null,"sku":"Standard","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":false,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"ipMode":"IPv4","vnetBackupRestoreEnabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"253001F2FCF5A7B1CD759EB861E9BB1596370BE27E47A991F72184277B3D12F2","kind":"functionapp,linux","managedEnvironmentId":null,"inboundIpAddress":"40.112.243.119","possibleInboundIpAddresses":"40.112.243.119","ftpUsername":"swabackends000005\\$swabackends000005","ftpsHostName":"ftps://waws-prod-bay-239.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,40.112.243.119","possibleOutboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,20.245.86.181,20.245.86.182,20.245.83.255,20.245.86.201,20.245.172.211,20.237.199.208,20.245.87.5,20.245.86.246,20.245.87.30,20.245.87.39,20.245.87.108,20.245.215.26,20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.66.120.196,20.66.120.222,20.66.121.96,20.66.121.134,20.66.121.174,20.66.120.162,40.112.243.119","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-bay-239","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000001","defaultHostName":"swabackends000005.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"endToEndEncryptionEnabled":false,"functionsRuntimeAdminIsolationEnabled":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":[],"publicNetworkAccess":null,"buildVersion":null,"targetBuildVersion":null,"migrationState":null,"eligibleLogCategories":"FunctionAppLogs","inFlightFeatures":[],"storageAccountRequired":false,"virtualNetworkSubnetId":null,"keyVaultReferenceIdentity":"SystemAssigned","defaultHostNameScope":"Global","privateLinkIdentifiers":null,"sshEnabled":null}}'
+        US","properties":{"name":"swabackends000005","state":"Running","hostNames":["swabackends000005.azurewebsites.net"],"webSpace":"clitest.rg000001-WestUSwebspace-Linux","selfLink":"https://waws-prod-bay-239.api.azurewebsites.windows.net:454/subscriptions/00000000-0000-0000-0000-000000000000/webspaces/clitest.rg000001-WestUSwebspace-Linux/sites/swabackends000005","repositorySiteName":"swabackends000005","owner":null,"usageState":"Normal","enabled":true,"adminEnabled":true,"afdEnabled":false,"enabledHostNames":["swabackends000005.azurewebsites.net","swabackends000005.scm.azurewebsites.net"],"siteProperties":{"metadata":null,"properties":[{"name":"LinuxFxVersion","value":"Node|14"},{"name":"WindowsFxVersion","value":null}],"appSettings":null},"availabilityState":"Normal","sslCertificates":null,"csrs":[],"cers":null,"siteMode":null,"hostNameSslStates":[{"name":"swabackends000005.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Standard"},{"name":"swabackends000005.scm.azurewebsites.net","sslState":"Disabled","ipBasedSslResult":null,"virtualIP":null,"virtualIPv6":null,"thumbprint":null,"certificateResourceId":null,"toUpdate":null,"toUpdateIpBasedSsl":null,"ipBasedSslState":"NotConfigured","hostType":"Repository"}],"computeMode":null,"serverFarm":null,"serverFarmId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/serverfarms/swabackends000004","reserved":true,"isXenon":false,"hyperV":false,"lastModifiedTimeUtc":"2023-11-06T22:07:41.0533333","storageRecoveryDefaultState":"Running","contentAvailabilityState":"Normal","runtimeAvailabilityState":"Normal","dnsConfiguration":{},"vnetRouteAllEnabled":false,"containerAllocationSubnet":null,"useContainerLocalhostBindings":null,"vnetImagePullEnabled":false,"vnetContentShareEnabled":false,"siteConfig":{"numberOfWorkers":1,"defaultDocuments":null,"netFrameworkVersion":null,"phpVersion":null,"pythonVersion":null,"nodeVersion":null,"powerShellVersion":null,"linuxFxVersion":"Node|14","windowsFxVersion":null,"windowsConfiguredStacks":null,"requestTracingEnabled":null,"remoteDebuggingEnabled":null,"remoteDebuggingVersion":null,"httpLoggingEnabled":null,"azureMonitorLogCategories":null,"acrUseManagedIdentityCreds":false,"acrUserManagedIdentityID":null,"logsDirectorySizeLimit":null,"detailedErrorLoggingEnabled":null,"publishingUsername":null,"publishingPassword":null,"appSettings":null,"metadata":null,"connectionStrings":null,"machineKey":null,"handlerMappings":null,"documentRoot":null,"scmType":null,"use32BitWorkerProcess":null,"webSocketsEnabled":null,"alwaysOn":true,"javaVersion":null,"javaContainer":null,"javaContainerVersion":null,"appCommandLine":null,"managedPipelineMode":null,"virtualApplications":null,"winAuthAdminState":null,"winAuthTenantState":null,"customAppPoolIdentityAdminState":null,"customAppPoolIdentityTenantState":null,"runtimeADUser":null,"runtimeADUserPassword":null,"loadBalancing":null,"routingRules":null,"experiments":null,"limits":null,"autoHealEnabled":null,"autoHealRules":null,"tracingOptions":null,"vnetName":null,"vnetRouteAllEnabled":null,"vnetPrivatePortsCount":null,"publicNetworkAccess":null,"cors":null,"push":null,"apiDefinition":null,"apiManagementConfig":null,"autoSwapSlotName":null,"localMySqlEnabled":null,"managedServiceIdentityId":null,"xManagedServiceIdentityId":null,"keyVaultReferenceIdentity":null,"ipSecurityRestrictions":null,"ipSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictions":null,"scmIpSecurityRestrictionsDefaultAction":null,"scmIpSecurityRestrictionsUseMain":null,"http20Enabled":true,"minTlsVersion":null,"minTlsCipherSuite":null,"supportedTlsCipherSuites":null,"scmMinTlsVersion":null,"ftpsState":null,"preWarmedInstanceCount":null,"functionAppScaleLimit":0,"elasticWebAppScaleLimit":null,"healthCheckPath":null,"fileChangeAuditEnabled":null,"functionsRuntimeScaleMonitoringEnabled":null,"websiteTimeZone":null,"minimumElasticInstanceCount":0,"azureStorageAccounts":null,"http20ProxyFlag":null,"sitePort":null,"antivirusScanEnabled":null,"storageType":null,"sitePrivateLinkHostEnabled":null},"daprConfig":null,"deploymentId":"swabackends000005","slotName":null,"trafficManagerHostNames":null,"sku":"Standard","scmSiteAlsoStopped":false,"targetSwapSlot":null,"hostingEnvironment":null,"hostingEnvironmentProfile":null,"clientAffinityEnabled":false,"clientCertEnabled":false,"clientCertMode":"Required","clientCertExclusionPaths":null,"hostNamesDisabled":false,"ipMode":"IPv4","vnetBackupRestoreEnabled":false,"domainVerificationIdentifiers":null,"customDomainVerificationId":"C4C02A18828506F81C8FA754DCC380496D4C309F80135C91EE4748B49E9BCDD1","kind":"functionapp,linux","managedEnvironmentId":null,"inboundIpAddress":"40.112.243.119","possibleInboundIpAddresses":"40.112.243.119","ftpUsername":"swabackends000005\\$swabackends000005","ftpsHostName":"ftps://waws-prod-bay-239.ftp.azurewebsites.windows.net/site/wwwroot","outboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,40.112.243.119","possibleOutboundIpAddresses":"20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.245.86.65,20.253.255.206,20.245.86.106,20.245.111.212,20.245.86.138,20.245.86.170,20.245.86.181,20.245.86.182,20.245.83.255,20.245.86.201,20.245.172.211,20.237.199.208,20.245.87.5,20.245.86.246,20.245.87.30,20.245.87.39,20.245.87.108,20.245.215.26,20.245.87.150,20.245.87.163,20.245.87.95,20.245.87.253,20.66.120.75,20.66.120.149,20.66.120.196,20.66.120.222,20.66.121.96,20.66.121.134,20.66.121.174,20.66.120.162,40.112.243.119","containerSize":0,"dailyMemoryTimeQuota":0,"suspendedTill":null,"siteDisabledReason":0,"functionExecutionUnitsCache":null,"maxNumberOfWorkers":null,"homeStamp":"waws-prod-bay-239","cloningInfo":null,"hostingEnvironmentId":null,"tags":null,"resourceGroup":"clitest.rg000001","defaultHostName":"swabackends000005.azurewebsites.net","slotSwapStatus":null,"httpsOnly":false,"endToEndEncryptionEnabled":false,"functionsRuntimeAdminIsolationEnabled":false,"redundancyMode":"None","inProgressOperationId":null,"geoDistributions":null,"privateEndpointConnections":[],"publicNetworkAccess":null,"buildVersion":null,"targetBuildVersion":null,"migrationState":null,"eligibleLogCategories":"FunctionAppLogs","inFlightFeatures":[],"storageAccountRequired":false,"virtualNetworkSubnetId":null,"keyVaultReferenceIdentity":"SystemAssigned","defaultHostNameScope":"Global","privateLinkIdentifiers":null,"sshEnabled":null}}'
     headers:
       cache-control:
       - no-cache
       content-length:
-      - '7005'
+      - '7010'
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:01:54 GMT
+      - Mon, 06 Nov 2023 22:07:43 GMT
       etag:
-      - '"1DA0273471983C0"'
+      - '"1DA10FDA917D7D5"'
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 6C5291F318544EA485E5482A8FC19CBF Ref B: CO6AA3150219009 Ref C: 2023-11-06T22:07:43Z'
       x-powered-by:
       - ASP.NET
     status:
       code: 200
       message: OK
 - request:
-    body: '{"properties": {"MACHINEKEY_DecryptionKey": "94492E39F961786831D1164CD783C5FB39E5F5BBCA201EE591E96EDB1B68DB0A",
+    body: '{"properties": {"MACHINEKEY_DecryptionKey": "80D6540E44D5886A63F6430E40E34BC78DD0A9D5C10E83EFCBA0E2C27964AD39",
       "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "true", "FUNCTIONS_WORKER_RUNTIME": "node",
       "FUNCTIONS_EXTENSION_VERSION": "~3", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==",
-      "APPINSIGHTS_INSTRUMENTATIONKEY": "16dd9001-640e-4e8e-96a4-2498ea8462b2"}}'
+      "APPINSIGHTS_INSTRUMENTATIONKEY": "d6561f22-c0c3-499d-83d5-be47f62b69c0"}}'
     headers:
       Accept:
       - application/json
@@ -1009,14 +1050,13 @@ interactions:
       ParameterSetName:
       - -g -n -s --plan --functions-version --runtime
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005/config/appsettings?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"West
-        US","properties":{"MACHINEKEY_DecryptionKey":"94492E39F961786831D1164CD783C5FB39E5F5BBCA201EE591E96EDB1B68DB0A","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"true","FUNCTIONS_WORKER_RUNTIME":"node","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"16dd9001-640e-4e8e-96a4-2498ea8462b2"}}'
+        US","properties":{"MACHINEKEY_DecryptionKey":"80D6540E44D5886A63F6430E40E34BC78DD0A9D5C10E83EFCBA0E2C27964AD39","WEBSITES_ENABLE_APP_SERVICE_STORAGE":"true","FUNCTIONS_WORKER_RUNTIME":"node","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"d6561f22-c0c3-499d-83d5-be47f62b69c0"}}'
     headers:
       cache-control:
       - no-cache
@@ -1025,23 +1065,25 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:02:06 GMT
+      - Mon, 06 Nov 2023 22:07:43 GMT
       etag:
-      - '"1DA0273471983C0"'
+      - '"1DA10FDA917D7D5"'
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1188'
+      - '1199'
+      x-msedge-ref:
+      - 'Ref A: 8E7AED9A50D941B38D709F8291C592BB Ref B: CO6AA3150217027 Ref C: 2023-11-06T22:07:43Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1061,14 +1103,13 @@ interactions:
       ParameterSetName:
       - -g -n --backend-resource-id --backend-region
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003","name":"swabackends000003","type":"Microsoft.Web/staticSites","location":"Central
-        US","properties":{"defaultHostname":"mango-cliff-0ad2a6910.3.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"13.86.4.76","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.3.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
+        US","properties":{"defaultHostname":"kind-sand-0b377a610.4.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"20.221.45.47","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.4.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
     headers:
       cache-control:
       - no-cache
@@ -1077,23 +1118,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:02:06 GMT
+      - Mon, 06 Nov 2023 22:07:44 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 7B5E1950A53B450393F6973D237FCBCD Ref B: CO6AA3150218045 Ref C: 2023-11-06T22:07:44Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1118,8 +1157,7 @@ interactions:
       ParameterSetName:
       - -g -n --backend-resource-id --backend-region
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003/builds/default/linkedBackends/swabackends000005?api-version=2022-03-01
   response:
@@ -1136,21 +1174,23 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 19 Oct 2023 10:02:06 GMT
+      - Mon, 06 Nov 2023 22:07:45 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1196'
+      - '1198'
+      x-msedge-ref:
+      - 'Ref A: 95B0C79D4A894B71B69CB47E17429008 Ref B: CO6AA3150218031 Ref C: 2023-11-06T22:07:45Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1170,14 +1210,13 @@ interactions:
       ParameterSetName:
       - -g -n --backend-resource-id --backend-region
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003","name":"swabackends000003","type":"Microsoft.Web/staticSites","location":"Central
-        US","properties":{"defaultHostname":"mango-cliff-0ad2a6910.3.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"13.86.4.76","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.3.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
+        US","properties":{"defaultHostname":"kind-sand-0b377a610.4.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"20.221.45.47","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.4.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
     headers:
       cache-control:
       - no-cache
@@ -1186,23 +1225,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:02:07 GMT
+      - Mon, 06 Nov 2023 22:07:45 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: AC3E20D22BE447B497DB2A027A616B7C Ref B: CO6AA3150217035 Ref C: 2023-11-06T22:07:45Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1227,14 +1264,13 @@ interactions:
       ParameterSetName:
       - -g -n --backend-resource-id --backend-region
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003/builds/default/linkedBackends/swabackends000005?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003/builds/default/linkedBackends/swabackends000005","name":"swabackends000005","type":"Microsoft.Web/staticSites/builds/linkedBackends","location":"Central
-        US","properties":{"backendResourceId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","region":"westus","areAutomatedDeploymentsEnabled":null,"storageAccountResourceId":null,"userAssignedManagedIdentityResourceId":null,"managedServiceIdentityType":"None","createdOn":"2023-10-19T10:02:09.1250392Z","provisioningState":"Succeeded"}}'
+        US","properties":{"backendResourceId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","region":"westus","areAutomatedDeploymentsEnabled":null,"storageAccountResourceId":null,"userAssignedManagedIdentityResourceId":null,"managedServiceIdentityType":"None","createdOn":"2023-11-06T22:07:47.0971109Z","provisioningState":"Succeeded"}}'
     headers:
       cache-control:
       - no-cache
@@ -1243,25 +1279,23 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:02:09 GMT
+      - Mon, 06 Nov 2023 22:07:47 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1195'
+      - '1199'
+      x-msedge-ref:
+      - 'Ref A: 5CC9F4A7692C4215A9854047FDCDBA52 Ref B: CO6AA3150218039 Ref C: 2023-11-06T22:07:45Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1281,14 +1315,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003","name":"swabackends000003","type":"Microsoft.Web/staticSites","location":"Central
-        US","properties":{"defaultHostname":"mango-cliff-0ad2a6910.3.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"13.86.4.76","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.3.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[{"backendResourceId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","region":"westus","areAutomatedDeploymentsEnabled":null,"storageAccountResourceId":null,"userAssignedManagedIdentityResourceId":null,"managedServiceIdentityType":"None","createdOn":"2023-10-19T10:02:09.1250392","provisioningState":"Succeeded"}],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
+        US","properties":{"defaultHostname":"kind-sand-0b377a610.4.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"20.221.45.47","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.4.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[{"backendResourceId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","region":"westus","areAutomatedDeploymentsEnabled":null,"storageAccountResourceId":null,"userAssignedManagedIdentityResourceId":null,"managedServiceIdentityType":"None","createdOn":"2023-11-06T22:07:47.0971109","provisioningState":"Succeeded"}],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
     headers:
       cache-control:
       - no-cache
@@ -1297,23 +1330,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:02:09 GMT
+      - Mon, 06 Nov 2023 22:07:47 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 0E46DE7817CE451387E37D8159115901 Ref B: CO6AA3150219009 Ref C: 2023-11-06T22:07:47Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1333,14 +1364,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003/builds/default/linkedBackends?api-version=2022-03-01
   response:
     body:
       string: '{"value":[{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003/builds/default/linkedBackends/swabackends000005","name":"swabackends000005","type":"Microsoft.Web/staticSites/builds/linkedBackends","location":"Central
-        US","properties":{"backendResourceId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","region":"westus","areAutomatedDeploymentsEnabled":null,"storageAccountResourceId":null,"userAssignedManagedIdentityResourceId":null,"managedServiceIdentityType":"None","createdOn":"2023-10-19T10:02:09.1250392","provisioningState":"Succeeded"}}],"nextLink":null,"id":null}'
+        US","properties":{"backendResourceId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","region":"westus","areAutomatedDeploymentsEnabled":null,"storageAccountResourceId":null,"userAssignedManagedIdentityResourceId":null,"managedServiceIdentityType":"None","createdOn":"2023-11-06T22:07:47.0971109","provisioningState":"Succeeded"}}],"nextLink":null,"id":null}'
     headers:
       cache-control:
       - no-cache
@@ -1349,23 +1379,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:02:09 GMT
+      - Mon, 06 Nov 2023 22:07:47 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 6E31DCA4294F4529ACC686A8496CD305 Ref B: CO6AA3150219035 Ref C: 2023-11-06T22:07:48Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1385,14 +1413,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003","name":"swabackends000003","type":"Microsoft.Web/staticSites","location":"Central
-        US","properties":{"defaultHostname":"mango-cliff-0ad2a6910.3.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"13.86.4.76","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.3.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[{"backendResourceId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","region":"westus","areAutomatedDeploymentsEnabled":null,"storageAccountResourceId":null,"userAssignedManagedIdentityResourceId":null,"managedServiceIdentityType":"None","createdOn":"2023-10-19T10:02:09.1250392","provisioningState":"Succeeded"}],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
+        US","properties":{"defaultHostname":"kind-sand-0b377a610.4.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"20.221.45.47","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.4.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[{"backendResourceId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","region":"westus","areAutomatedDeploymentsEnabled":null,"storageAccountResourceId":null,"userAssignedManagedIdentityResourceId":null,"managedServiceIdentityType":"None","createdOn":"2023-11-06T22:07:47.0971109","provisioningState":"Succeeded"}],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
     headers:
       cache-control:
       - no-cache
@@ -1401,23 +1428,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:02:09 GMT
+      - Mon, 06 Nov 2023 22:07:47 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 17DFE17D18C9468DB75101771F06FB2F Ref B: CO6AA3150220011 Ref C: 2023-11-06T22:07:48Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1437,14 +1462,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003/builds/default/linkedBackends?api-version=2022-03-01
   response:
     body:
       string: '{"value":[{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003/builds/default/linkedBackends/swabackends000005","name":"swabackends000005","type":"Microsoft.Web/staticSites/builds/linkedBackends","location":"Central
-        US","properties":{"backendResourceId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","region":"westus","areAutomatedDeploymentsEnabled":null,"storageAccountResourceId":null,"userAssignedManagedIdentityResourceId":null,"managedServiceIdentityType":"None","createdOn":"2023-10-19T10:02:09.1250392","provisioningState":"Succeeded"}}],"nextLink":null,"id":null}'
+        US","properties":{"backendResourceId":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/swabackends000005","region":"westus","areAutomatedDeploymentsEnabled":null,"storageAccountResourceId":null,"userAssignedManagedIdentityResourceId":null,"managedServiceIdentityType":"None","createdOn":"2023-11-06T22:07:47.0971109","provisioningState":"Succeeded"}}],"nextLink":null,"id":null}'
     headers:
       cache-control:
       - no-cache
@@ -1453,23 +1477,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:02:10 GMT
+      - Mon, 06 Nov 2023 22:07:48 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 15CD46825782499998B74F7D0840A135 Ref B: CO6AA3150219027 Ref C: 2023-11-06T22:07:48Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1491,8 +1513,7 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: DELETE
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003/builds/default/linkedBackends/swabackends000005?isCleaningAuthConfig=false&api-version=2022-03-01
   response:
@@ -1502,21 +1523,23 @@ interactions:
       cache-control:
       - no-cache
       date:
-      - Thu, 19 Oct 2023 10:02:11 GMT
+      - Mon, 06 Nov 2023 22:07:49 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-deletes:
       - '14999'
+      x-msedge-ref:
+      - 'Ref A: 31FFE5F0A91A4AFEBC241907B3FB5020 Ref B: CO6AA3150218047 Ref C: 2023-11-06T22:07:48Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1536,14 +1559,13 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003?api-version=2022-03-01
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003","name":"swabackends000003","type":"Microsoft.Web/staticSites","location":"Central
-        US","properties":{"defaultHostname":"mango-cliff-0ad2a6910.3.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"13.86.4.76","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.3.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
+        US","properties":{"defaultHostname":"kind-sand-0b377a610.4.azurestaticapps.net","repositoryUrl":null,"branch":null,"customDomains":[],"stableInboundIP":"20.221.45.47","privateEndpointConnections":[],"stagingEnvironmentPolicy":"Enabled","allowConfigFileUpdates":true,"contentDistributionEndpoint":"https://content-dm1.infrastructure.4.azurestaticapps.net","keyVaultReferenceIdentity":"SystemAssigned","userProvidedFunctionApps":null,"linkedBackends":[],"provider":"None","enterpriseGradeCdnStatus":"Disabled","publicNetworkAccess":null,"databaseConnections":[],"trafficSplitting":{"environmentDistribution":{"default":100}},"areStaticSitesDistributedBackendsEnabled":false,"prettyNameStatus":null,"prettyName":null,"prettyNameHostname":null,"targetResourceGroupResourceId":null,"trialExpirationTimeUtc":null},"sku":{"name":"Standard","tier":"Standard"}}'
     headers:
       cache-control:
       - no-cache
@@ -1552,23 +1574,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:02:11 GMT
+      - Mon, 06 Nov 2023 22:07:49 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: A480189907374E50A0B967922EECD92B Ref B: CO6AA3150217035 Ref C: 2023-11-06T22:07:49Z'
       x-powered-by:
       - ASP.NET
     status:
@@ -1588,8 +1608,7 @@ interactions:
       ParameterSetName:
       - -g -n
       User-Agent:
-      - AZURECLI/2.53.0 azsdk-python-azure-mgmt-web/7.0.0 Python/3.10.13 (Linux-5.15.0-1047-azure-x86_64-with-glibc2.31)
-        VSTS_7b238909-6802-4b65-b90d-184bca47f458_build_220_0
+      - AZURECLI/2.53.1 azsdk-python-azure-mgmt-web/7.0.0 Python/3.8.10 (Windows-10-10.0.22631-SP0)
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/staticSites/swabackends000003/builds/default/linkedBackends?api-version=2022-03-01
   response:
@@ -1603,23 +1622,21 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 19 Oct 2023 10:02:12 GMT
+      - Mon, 06 Nov 2023 22:07:49 GMT
       expires:
       - '-1'
       pragma:
       - no-cache
-      server:
-      - Microsoft-IIS/10.0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      transfer-encoding:
-      - chunked
-      vary:
-      - Accept-Encoding
       x-aspnet-version:
       - 4.0.30319
+      x-cache:
+      - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
+      x-msedge-ref:
+      - 'Ref A: 549115E691BD44DBAFD0EC4873C33C34 Ref B: CO6AA3150220017 Ref C: 2023-11-06T22:07:49Z'
       x-powered-by:
       - ASP.NET
     status:
